@@ -1,0 +1,1943 @@
+/* LICENSE & DETAILS
+   ==================================================
+
+	Theme Name: Coventry College
+	Theme URI: http://dante.swiftideas.net
+	Description: Coventry College website, Where you get inspired. Built by ellodave.
+	License: GNU General Public License version 3.0
+	License URI: http://www.gnu.org/licenses/gpl-3.0.html
+	Template: dante
+	Version: 1.0
+	Author: ellodave
+	Author URI: www.ellodave.co.uk
+
+	All files, unless otherwise stated, are released under the GNU General Public License
+	version 3.0 (http://www.gnu.org/licenses/gpl-3.0.html)
+
+   ==================================================
+*/
+
+/* --------------------------------------------
+	CHILD THEME CSS
+-------------------------------------------- */
+/*GlOBAL*/
+.mobile-menu-show .ss-rows:before{content: '\f0c9';font-family: FontAwesome;}
+*{text-rendering: optimizeLegibility;-webkit-font-smoothing: antialiased;-moz-osx-font-smoothing: grayscale;}
+.vc_btn3.vc_btn3-color-blue.vc_btn3-style-outline {color: #0A4E7A;border-color: #0A4E7A;background-color: transparent;}
+#header-section.header-6 #header{padding: 20px 0 15px;}
+#top-bar .menu > li > a{text-transform:uppercase;}
+#top-bar .menu > li{border:none;}
+nav#main-navigation .menu > li{text-transform:uppercase;}
+.content-overflow{overflow:visible!important;}
+#boxed-page-title .wpb_wrapper{max-width:1140px;margin:auto;}
+#boxed-page-title .vc_column-inner{background-position:right;}
+#page-header-image{background-position:center;height:600px;}
+#page-header-image .wpb_content_element{max-width:60%;}
+#page-header-image .wpb_wrapper{display: -webkit-box;display: -ms-flexbox;display: flex;align-items:baseline;}
+#blue-boxed-title{text-align: left;}
+.no-overflow{overflow:hidden!important;}
+.tb-left.col-sm-6{width:60%!important;}
+.tb-right.col-sm-6{width:40%!important;}
+.other-enquiries-top-bar:after{content: ' \f061';font-family: FontAwesome;}
+.tb-left{text-transform: uppercase;font-size: 1.2rem;}
+.tb-left span{margin:0.5rem}
+.vc_btn3.vc_btn3-color-blue.vc_btn3-style-outline:focus, .vc_btn3.vc_btn3-color-blue.vc_btn3-style-outline:hover{color: #fff!important;border-color: #0A4E7A!important;background-color:#0A4E7A!important;}
+.vc_btn3.vc_btn3-color-blue.vc_btn3-style-outline {color:#0A4E7A!important;border-color:#0A4E7A!important;background-color: transparent;}
+#blue-boxed-title h1{background-color: #0A4E7A;text-align: center;padding: 5px;font-size: 25px;display: inline;text-transform:uppercase;}
+#blue-boxed-header-title h1{text-align: left;color: #FFFFFF;background-color: #0A4E7A;box-shadow: 3rem 0 0 #0A4E7A, -2rem 0 0 #0A4E7A;display: inline;padding: .5rem 0 .75rem 0;}
+#course-search-tile{z-index:0}
+#blue-boxed-header-title.two-line-break h1{line-height:1.45;}
+#course-search-tile{z-index:0}
+#zindex-0{z-index:0;}
+#advice-widget{background-color: #7CC04B;color: #FFFFFF;padding: 20px;position:relative;margin-top:-150px;left:50px;}
+#advice-widget h2{color: #FFFFFF;margin:0;padding-bottom:0.3em;font-size: 1.6em;}
+#advice-widget h3{color: #FFFFFF;}
+.advice-widget_square:after{display:none!important;}
+.advice-widget_square ul li{list-style:none;margin: 10px 10px 10px 10px;}
+.advice-widget ul li{list-style:none}
+#blue-widget ul li{list-style:none}
+#advice-widget ul li a{color:#FFFFFF;}
+#blue-widget{background-color: #1CACC6;color: #FFFFFF;padding: 20px;position:relative;margin-top:-150px;left:50px;}
+#blue-widget h2{color: #FFFFFF;margin:0;padding-bottom:0.3em;font-size: 1.6em;}
+#white-type h1, #white-type h3, #white-type p, #white-type h2, #white-type h4{color:#FFFFFF!important;}
+#blue-toggles .vc_tta-panel-heading{background-color: #199fb6!important;}
+#blue-toggles .vc_tta-title-text{color:#FFFFFF!important;}
+#blue-toggles .vc_tta-controls-icon-plus::before{border-color:#FFFFFF;}
+#blue-toggles .vc_tta-controls-icon-plus::after{border-color:#FFFFFF;}
+#blue-toggles .vc_tta-panel-body{background-color:#1CACC6;overflow:visible;}
+#blue-toggles .vc_tta-panel-body .wpb_wrapper{color:#FFFFFF;max-width:70%;}
+#blue-toggles h4{color:#FFFFFF!important;}
+.widget{padding-bottom:0;}
+.widget p{margin: 10px 0px 0px 0px;}
+#text-width-90{max-width:90%;}
+#text-width-80{max-width:80%;}
+.view-course-link:after{font-family: FontAwesome;content:" \f061";font-size: 1.2em;margin-left: 5px;font-weight:400;margin-right:10px;}
+.wpv-reset-trigger{background-color:#0A4E7A;border: solid 2px;border-radius: 0;border-color: #0A4E7A;color: #FFFFFF;}
+#in-text-link a{color: #0A4E7A;border-bottom: solid 1px;}
+#standard-toggles .vc_tta-panel-body .wpb_wrapper{max-width:80%;margin-left:10px;}
+#standard-toggles li{margin-bottom:20px;}
+#standard-toggles li {margin-bottom: 20px;list-style-position: inside;text-indent: -2.5em;}
+#standard-toggles li::before {content:"\f061";font-family: FontAwesome;margin-right: 8px;color:#1CACC6;font-weight: bold;padding: 3px 8px;border-radius: 3px;}
+#blue-toggles li {counter-increment: step-counter;margin-bottom: 20px;list-style-position: inside;text-indent: -2em;}
+#blue-toggles li::before {content: counter(step-counter);margin-right: 5px;background-color:#199FB6;color: white;font-weight: bold;padding: 3px 8px;border-radius: 3px;}
+#standard-toggles .vc_tta-panel-body{overflow:visible;}
+#blue-toggles h2 span{color: #ffffff;border-bottom: solid 2px;padding-bottom: 3px;border-color: rgba(255, 255, 255, 0.27);}
+#blue-toggles h2{margin-bottom:20px;font-size:2rem;}
+#advice-widget:after{right: 0;bottom: -5rem;content: "";width: 0;height: 0;border-top: 50px solid #7CC04B;border-left: 50px solid transparent;position: absolute;}
+#blue-widget:after{right: 0;bottom: -5rem;content: "";width: 0;height: 0;border-top: 50px solid #1CACC6;border-left: 50px solid transparent;position: absolute;}
+#blue-toggles .vc_tta-panel-body a:after{font-family: FontAwesome;content:" \f061";font-size: 1.2em;vertical-align: middle;margin-left: 5px;}
+#blue-toggles .vc_tta-panel-body a{color:#FFFFFF!important;}
+#blue-toggles #learner-support-fund-tab .vc_tta-panel-body .wpb_wrapper {max-width: 100%;}
+#he-course-funding-tab table{width:100%;}
+.blue-tab_white-header{color: #ffffff;text-decoration: underline;text-decoration-color: rgba(255, 255, 255, 0.38);-webkit-text-decoration-color: rgba(255, 255, 255, 0.38);}
+.blue-toggle_white-button{background-color:#137c8e!important;}
+.white-toggle_blue-header{color: #1CACC6;text-decoration: underline;text-decoration-color: rgba(255, 255, 255, 0.38);-webkit-text-decoration-color: rgba(255, 255, 255, 0.38);}
+.white-toggle_blue-header.spacebelow{margin-bottom:20px;}
+#footer-widgets .widget{font-size: 0.9em;}
+.breadcrumbs{color: #014E7D;}
+.campus-address-container{display: grid;grid-template-columns: 50% 50%;}
+.campus-address{line-height:2;}
+.cov-snapchat {position: absolute;margin-top: -41px;margin-left: 115px;}
+.mobile-search-form{display:none;}
+#mobile-menu-wrap{background:#174068;border-left: solid 5px;border-left-color: #FFFFFF;}
+#mobile-menu ul li {border-top:none;border-bottom: 0;padding: 0.5rem;font-size: 1.6rem;font-weight: 600;}
+#mobile-menu .menu ul li.current-menu-item > a, #mobile-menu .menu ul li a:hover, #mobile-menu .menu ul li a:active, #mobile-menu .menu ul li a:focus{background-color:#02ACC8!important;}
+#logo a.mobile-menu-show {float: right;padding: 2rem;font-size: 4rem;}
+.mobile-menu-close {font-size: 3rem;padding: 20px 10px;}
+#mobile-menu ul.sub-menu {background: #10355a;}
+#mobile-menu ul.sub-menu li a{font-size:1.2em;}
+.vc_column-inner .wpb_wrapper ul{list-style:initial;}
+#in-text-accordion .vc_tta-panel-heading{border:none;border-radius:0;background-color:#f3f3f3;}
+#in-text-accordion .vc_tta-panel-title{font-size:14px;}
+#in-text-accordion .vc_tta-controls-icon-plus::before{border-color:#CAD22C!important;}
+#in-text-accordion .vc_tta-controls-icon-plus::after{border-color:#CAD22C!important;}
+#in-text-accordion .vc_tta-controls-icon{ left: 1px;height: 8px;width: 8px;}
+.gform_wrapper label.gfield_label, .gform_wrapper legend.gfield_label{font-weight:400;}
+.modal-header h2, .modal-header h3{font-weight:600;color:#0A4E7A;font-size:2rem;}
+#moove_gdpr_cookie_info_bar .moove-gdpr-info-bar-container .moove-gdpr-info-bar-content p{font-weight:400;}
+.disable-tab{pointer-events:none;opacity:0.5;}
+.disable-tab:before{content: 'File to follow';font-size: 0.8em;float: left;background-color: rgba(222, 224, 221, 0.94);padding: 5px 20px 5px 20px;color: #000;margin:7px}
+.custom-start-date-input{display:block;margin-top: 0.5rem}
+.wpb_revslider_element{margin-bottom:0;}
+.pending:after{color: #5b5c5c;z-index: 1000;position: absolute;padding: 5px 10px;background: #F1F0F0;text-transform: uppercase;border-right: solid 5px;content: 'Coming soon';font-size: 0.7em;border-right-color: #dddcdc;bottom: 0;left: 80px;font-weight: 600;}
+/*HOMEPAGE REV SLIDER*/
+.page-id-2503 .fullcoveredvideo audio, .fullscreenvideo audio .fullcoveredvideo video, .fullscreenvideo video{background: #1a5b86!important;}
+.tp-video-play-button{display:none!important;}
+.videoisplaying .tp-revstop {display: none!important;}
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px){
+	#slide-6-layer-1{max-height:20vh!important;}
+	#rev_slider_5_1{max-height:20vh!important;}
+	#rev_slider_5_1_wrapper{max-height:20vh!important;}
+	.wpb_revslider_element{max-height:20vh!important;}
+	#rev_slider_5_1_wrapper .fullcoveredvideo audio, .fullscreenvideo audio .fullcoveredvideo video, .fullscreenvideo video{background-color:#1a5b86!important;}
+	.tp-video-play-button{display:none!important;}
+	.videoisplaying .tp-revstop {display: none!important;}
+}
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (orientation: landscape) { 
+	  #slide-6-layer-1{max-height:300px!important;}
+	#rev_slider_5_1{max-height:300px!important;}
+	#rev_slider_5_1_wrapper{max-height:300px!important;}
+	.wpb_revslider_element{max-height:300px!important;}
+	#rev_slider_5_1_wrapper .fullcoveredvideo audio, .fullscreenvideo audio .fullcoveredvideo video, .fullscreenvideo video{background-color:#1a5b86!important;}
+	.tp-video-play-button{display:none!important;}
+	.videoisplaying .tp-revstop {display: none!important;}
+}
+/*HIGHER EDUCATION REV SLIDER*/
+.higher-education .fullcoveredvideo audio, .higher-education .fullscreenvideo audio .fullcoveredvideo video, .higher-education .fullscreenvideo video{background: #FFFFFF!important;}
+.tp-video-play-button{display:none!important;}
+.videoisplaying .tp-revstop {display: none!important;}
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px){
+	#slide-8-layer-1{max-height:20vh!important;}
+	#rev_slider_6_1{max-height:20vh!important;}
+	#rev_slider_6_1_wrapper{max-height:20vh!important;}
+	.higher-education .wpb_revslider_element{max-height:20vh!important;}
+	.higher-education #rev_slider_5_1_wrapper .fullcoveredvideo audio, .higher-education .fullscreenvideo audio .fullcoveredvideo video, .higher-education .fullscreenvideo video{background-color:#FFFFFF!important;}
+	.tp-video-play-button{display:none!important;}
+	.videoisplaying .tp-revstop {display: none!important;}
+}
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (orientation: landscape) { 
+	  #slide-8-layer-1{max-height:400px!important;}
+	#rev_slider_6_1{max-height:400px!important;}
+	#rev_slider_6_1_wrapper{max-height:400px!important;}
+	.higher-education .wpb_revslider_element{max-height:400px!important;}
+	.higher-education #rev_slider_6_1_wrapper .fullcoveredvideo audio, .higher-education .fullscreenvideo audio .fullcoveredvideo video, .higher-education .fullscreenvideo video{background-color:#FFFFFF!important;}
+	.higher-education .tp-revslider-mainul{max-height:100%!important;}
+	.tp-video-play-button{display:none!important;}
+	.videoisplaying .tp-revstop {display: none!important;}
+}
+/*SLT REV SLIDER*/
+.slt .fullcoveredvideo audio, .slt .fullscreenvideo audio .fullcoveredvideo video, .slt .fullscreenvideo video{background: #04558B!important;}
+.tp-video-play-button{display:none!important;}
+.videoisplaying .tp-revstop {display: none!important;}
+/*SLT PAGE*/
+.slt #slt-team .vc_single_image-img.attachment-full{height:200px;width:auto;}
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px){
+	#slide-6-layer-1{max-height:20vh!important;}
+	#rev_slider_8_1{max-height:20vh!important;}
+	#rev_slider_8_1_wrapper{max-height:20vh!important;}
+	.wpb_revslider_element{max-height:20vh!important;}
+	#rev_slider_8_1_wrapper .fullcoveredvideo audio, .fullscreenvideo audio .fullcoveredvideo video, .fullscreenvideo video{background-color:#034E7E!important;}
+	.tp-video-play-button{display:none!important;}
+	.videoisplaying .tp-revstop {display: none!important;}
+}
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (orientation: landscape) { 
+	  #slide-6-layer-1{max-height:300px!important;}
+	#rev_slider_8_1{max-height:300px!important;}
+	#rev_slider_8_1_wrapper{max-height:300px!important;}
+	.slt .wpb_revslider_element{max-height:300px!important;}
+	#rev_slider_8_1_wrapper .fullcoveredvideo audio, .fullscreenvideo audio .fullcoveredvideo video, .fullscreenvideo video{background-color:#034E7E!important;}
+	.tp-video-play-button{display:none!important;}
+	.videoisplaying .tp-revstop {display: none!important;}
+}
+/* KEY POLICIES AND PROCEDURES */
+.key-policies-procedures .wpb-js-composer .vc_tta-color-grey.vc_tta-style-flat .vc_tta-panel .vc_tta-panel-heading{background-color:#e0e0e0!important;}
+.key-policies-procedures .vc_tta-tab>a{background-color:#0D5689!important;}
+.key-policies-procedures .key-policies-procedures_tabs .vc_tta-panels{max-width:100%;}
+.key-policies-procedures #page-header-image{height:400px;}
+.key-policies-procedures #page-header-image .wpb_content_element {max-width: 100%;}
+.key-policies-procedures .vc_tta-panel-body{padding: 4rem!important;border: solid 1px!important;border-color: #0D5689!important;}
+.key-policies-procedures .page-heading{background-image: url(/wp-content/uploads/2018/12/inter_english_banner.jpg);background-size: cover;height: 400px;background-position: right;display: -webkit-box;display: -ms-flexbox;display: flex;}
+.key-policies-procedures .page-heading .container{align-self: flex-end;display: -webkit-box;display: -ms-flexbox;display: flex;}
+.key-policies-procedures .page-heading .heading-text{background-color:#0A4E7A;padding:10px;}
+.key-policies-procedures .page-heading .heading-text h1{color:#FFFFFF;}
+.key-policies-procedures .entry-title{color:#FFFFFF!important;}
+.key-policies-procedures #breadcrumbs{display:none;}
+#policies-procedures-downloadable-accordian .wpb_content_element{margin-bottom: 1rem;}
+#policies-procedures-downloadable-accordian .vc_btn3-inline{margin-bottom: 3rem;}
+/*HOLDING PAGE*/
+.home #main-container{background-color:transparent!important;}
+/*HOMEPAGE*/
+#page-wrap{overflow:visible;}
+#open-event-bar .wpb_wrapper{max-width:1140px;margin:auto;}
+#open-event-bar .wpb_wrapper p{color:#FFFFFF;font-weight:600;}
+#open-event-bar .wpb_wrapper a{color:#FFFFFF;font-weight:600;}
+.next-open-event-date:after{font-family: FontAwesome;content:" \f061";font-size: 1.2em;margin-left: 5px;font-weight:400;margin-right:10px;}
+.homepage-about-copy h1{color:#0A4E7A;}
+#search-filter-tiles p{color:#FFFFFF;}
+#homepage-green-tile p{color:#FFFFFF;}
+#section2-left-tile P{color:#0A4E7A;}
+.page page-id-398 #section2-left-tile a{color: #0A4E7A;border-bottom: dotted 1px;}
+#section3-left-tile P{color:#FFFFFF;}
+#course-category-boxes h3{color:#FFFFFF;font-size: 1.4em;font-weight: 300;line-height:1.3;}
+#course-category-boxes a{color:#FFFFFF;}
+#course-category-boxes a:hover{color: rgba(255, 255, 255, 0.38);}
+#home-section2{z-index:0;}
+#home-section2 .wpb_column{z-index:0;}
+#home-section2 h1{color:#0A4E7A;}
+#home-section3 p{color:#FFFFFF;}
+.search-view-all-links{text-align:right;}
+.search-view-all-links a{color:#FFFFFF;line-height:2;}
+.search-view-all-links p{margin:0;padding:0;}
+.search-view-all-links a:after{font-family: FontAwesome;content:" \f061";font-size: 1.2em;vertical-align: middle;margin-left: 5px;}
+#search-by-subject-form .form-group{display:inline-block!important;width:80%;margin:0;}
+#search-by-subject-form .form-group input{width:100%;margin:0;padding:20px;font-size:1.2em!important;color:#0A4E7A;}
+.homepage-search-btn:after{font-family: FontAwesome;content:"\f061";font-style: normal;font-size: 1.5em;color:#1CACC6;}
+.homepage-search-btn{color:transparent;}
+.homepage-search-btn:hover{color:transparent;margin-left: -95px!important;}
+/* IE BROWSER FIXES */
+.browser-ie10 #search-by-subject-form .form-group input{display:inline-block!important;padding:0;height:40px;}
+.browser-ie11 #search-by-subject-form .form-group input{display:inline-block!important;padding:0;height:40px;}
+#back-to-top {-moz-border-radius: 0px;-webkit-border-radius: 0px;border-radius: 0px;background-color: #009DE5;-moz-box-shadow: inset 0 0 0px rgba(0,0,0,.0);-webkit-box-shadow: inset 0 0 0px rgba(0,0,0,.0);box-shadow: none;}
+#back-to-top i{color: #FFFFFF;font-size: 2em;vertical-align: middle}
+.paper-plane{position:absolute;margin-top:-190px;z-index:-3;margin-left: -200px;}
+#coventry-skyline img{max-width:1500px;}
+#fe-magazine .wpb_text_column{position: relative;margin-top: -80px;}
+#fe-magazine .vc_btn3.vc_btn3-color-blue.vc_btn3-style-outline {color: #1CACC6!important;border-color: #1CACC6!important;background-color: transparent;}
+#breadcrums{background-color:#f3f3f3;padding:10px;}
+/* LIVE TEXT HOMEPAGE AD TILES */
+.homepage-ad-tile_bg-image{height:300px;max-height:300px;z-index:0;}
+.homepage-ad-tile_bg-image .wpb_wrapper{height:100%!important;}
+.homepage-ad-tile_bg-image .vc_column-inner{padding:0!important;}
+.homepage-ad-tile{display:block!important;height:100%!important;}
+.homepage-ad-tile a{width:100%!important;height:100%!important;font-size: 3.2rem!important;font-weight: 600!important;text-align:left!important;background-image:none!important;background-color:transparent!important;display: -webkit-box !important;display: -ms-flexbox !important;display: flex !important;-webkit-box-pack: center;-ms-flex-pack: center;justify-content: center;-ms-flex-line-pack: center;align-content: center;-webkit-box-align: center;-ms-flex-align: center;align-items: center;}
+/* ABOUT US */
+.aboutus .inner-page-wrap {margin-top:0;}
+.aboutus #page-header-image{height:500px;background-position:top!important;}
+.aboutus-header-title{position: absolute;margin-top: -150px;background-color: #0A4E7A;}
+.aboutus-header-title h1{color: #FFFFFF;margin: 0;padding: 10px;}
+/* COURSE TYPE DROPDOWN */
+.dropbtn {background-color: #0A4E7A;color: white;padding: 16px;font-size: 16px;border: none;}
+.course-dropdown {position: relative;display: inline-block;}
+.dropdown-content {display: none;position: absolute;background-color: #f1f1f1;min-width: 300px;box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);z-index: 1;}
+.dropdown-content a {color: black;padding: 12px 16px;text-decoration: none;display: block;}
+.dropdown-content a:hover {background-color: #ddd;color:#222222;}
+.course-dropdown:hover .dropdown-content {display: block;}
+.course-dropdown:hover .dropbtn {background-color: #073959;}
+/*SUPPORT PAGE */
+.support .vc_tta-panel-heading{text-align:center!important;}
+.vc_tta-controls-icon {display: block;height: 12px;width: 12px;position: relative;font-size: inherit;margin: auto!important;float: right;}
+.vc_tta-panel-body{max-width:1140px;margin:auto;}
+.vc_general{max-width:1140px;margin:auto;}
+.vc_tta-panel-title>a{color: #222222!important;font-size: 1.2em;text-align: left;padding-left:15px!important;font-weight:400;}
+.wpb-js-composer .vc_tta-color-white.vc_tta-style-flat .vc_tta-panel .vc_tta-panel-heading{background-color:#ECECEC!important;}
+.wpb-js-composer .vc_tta-color-white.vc_tta-style-flat:not(.vc_tta-o-no-fill) .vc_tta-panel-body{color:#222222!important;}
+#blue-cir_support-img-overlay{position: relative;margin-top: -200px;margin-left: -40px;}
+#green-cir_support-img-overlay{position: relative;margin-top: -200px;margin-left: -40px;}
+.support .vc_column-inner .wpb_wrapper ul{list-style:none;}
+/* COURSE LISTINGS */
+#course-block{margin-bottom:20px;}
+#course-block .wpb_content_element{margin-bottom:0;}
+#course-block .vc_column-inner{padding: 0px 0px 0px 10px;}
+/* TERMS */
+.terms .wpb_wrapper ul li{list-style:initial;margin-bottom:20px;}
+.terms .page-heading {background-color: #f7f7f7;border-bottom-color: #e4e4e4;background-image: url(/wp-content/uploads/2018/10/college-life.jpg);height: 400px;background-size: cover;background-position:right;}
+/* MATHS AND ENGLISH WORKSHOPS */
+.maths-english-workshops .page-heading{background-color:#0062A6;}
+.maths-english-workshops .page-heading h1{color:#FFFFFF!important;}
+.maths-english-workshops #breadcrumbs{display:none;}
+.maths-english-workshops #main-container{background-color:transparent!important;}
+.maths-english-workshops #main-container .vc_column-inner{background-color:#FFFFFF!important}
+.terms .page-heading .container{display: -webkit-box;display: -ms-flexbox;display: flex;align-items: flex-end;justify-content: left;height: 100%;}
+.terms .page-heading .heading-text {background-color: #0A4E7A;padding: 5px;}
+.terms .page-heading .heading-text h1 {color:#FFFFFF;}
+.terms #breadcrumbs{display:none;}
+/* NATIONAL APPRENTICESHIP WEEK PAGE */
+.naw .page-heading {background-color: #f7f7f7;border-bottom-color: #e4e4e4;background-image: url(/wp-content/uploads/2018/09/computing_course-header.jpg);height: 400px;background-size: cover;background-position:center;border-bottom:none;}
+.naw .page-heading .container{display: -webkit-box;display: -ms-flexbox;display: flex;align-items: flex-end;justify-content: left;height: 100%;}
+.naw .page-heading .heading-text {background-color: #0A4E7A;padding: 5px;}
+.naw .page-heading .heading-text h1 {color:#FFFFFF;}
+.naw #breadcrumbs{display:none;}
+#naw-top-sec{overflow:visible;}
+#naw-widget{background-color: #F9E3EF;color: #084E7C;padding: 20px;position:relative;margin-top:90px;left:50px;}
+#naw-widget h2{color: #084E7C;margin:0;padding-bottom:0.3em;font-size: 1.6em;line-height:1.4;}
+#naw-widget h3{color: #FFFFFF;}
+#naw-widget:after{right: 0;bottom: -5rem;content: "";width: 0;height: 0;border-top: 50px solid #F9E3EF;border-left: 50px solid transparent;position: absolute;}
+.naw .vc_column-inner.vc_custom_1551104364217:after {background-image: url(/wp-content/uploads/2019/02/Asset-1cov-pink-lines-e1539873171316.png);height: 200px;width: 100%;background-repeat: no-repeat;position: absolute;z-index: -1;margin-left: -150px;bottom: -150px;}
+.naw .vc_column-inner.vc_custom_1551111717507:after {background-image: url(/wp-content/uploads/2019/02/Asset-1cov-asset-app.png);content: '';height: 100%;z-index: 0;width: 40%;background-size: contain;top: -150px;position: absolute;opacity: 0.3;transform: rotate(60deg);background-repeat: no-repeat;left:-120px;}
+#share-story-tile .sf-button{background: transparent!important;border: solid 2px!important;border-color: #FFFFFF!important;color: #FFFFFF!important;padding: 1.5rem 5rem 1.5rem 5rem!important;font-size: 1.5rem!important;}
+.naw .flex-2coll .wpb_wrapper{flex-direction: row;display: -webkit-box;display: -ms-flexbox;display: flex;}
+.naw .flex-2coll .wpb_wrapper p{flex-direction: row;display: -webkit-box;display: -ms-flexbox;display: flex;}
+.naw .flex-2coll.center p{margin:auto;}
+.naw .flex-2coll .wpb_wrapper .sf-button{max-height:50px;}
+.naw .flex-2coll.center .wpb_wrapper p .sf-button{padding: 1.5rem 5rem 1.5rem!important;background-color:transparent!important;color: #FFFFFF!important;font-size: 1.5rem!important;border: solid 2px!important;border-color:#FFFFFF!important;max-height:50px;}
+.naw #naw-widget .vc_btn3{padding: 1.5rem 5rem 1.5rem!important;background-color: #084E7C!important;color: #FFFFFF!important;font-size: 1.5rem!important;border: none!important;}
+.naw .flex-2coll.center .wpb_wrapper p .sf-button .text{color:#FFFFFF!important;}
+.naw .contact-development-team .sf-button{color: #084E7C!important;background-color: transparent;border: solid 2px;border-radius: 0;border-color: #084E7C;font-weight: 400!important;font-size: 1.5rem;}
+.naw .contact-development-team .sf-button:hover{background-color:#e1cdd8!important;}
+/* NATIONAL CAREER WEEK PAGE */
+.ncw .page-heading {background-color: #f7f7f7;border-bottom-color: #e4e4e4;background-image: url(/wp-content/uploads/2018/09/computing_course-header.jpg);height: 400px;background-size: cover;background-position:center;border-bottom:none;}
+.ncw .page-heading .container{display: -webkit-box;display: -ms-flexbox;display: flex;align-items: flex-end;justify-content: left;height: 100%;}
+.ncw .page-heading .heading-text {background-color: #0A4E7A;padding: 5px;}
+.ncw .page-heading .heading-text h1 {color:#FFFFFF;}
+.ncw #breadcrumbs{display:none;}
+#ncw-top-sec{overflow:visible;}
+#ncw-widget{background-color: #E93F6C;color: #FFFFFF;padding: 20px;position:relative;margin-top:90px;left:50px;}
+#ncw-widget h2{color: #FFFFFF;margin:0;padding-bottom:0.3em;font-size: 1.6em;line-height:1.4;}
+#ncw-widget h3{color: #FFFFFF;}
+#ncw-widget:after{right: 0;bottom: -5rem;content: "";width: 0;height: 0;border-top: 50px solid #E93F6C;border-left: 50px solid transparent;position: absolute;}
+.ncw .vc_column-inner.vc_custom_1551196741265:after {background-image: url(/wp-content/uploads/2019/02/Asset-1cov-green-lines-e1539873171316.png);height: 200px;width: 100%;background-repeat: no-repeat;position: absolute;z-index: -1;margin-left: -120px;bottom: -100px;}
+#share-story-tile .sf-button{background: transparent!important;border: solid 2px!important;border-color: #FFFFFF!important;color: #FFFFFF!important;padding: 1.5rem 5rem 1.5rem 5rem!important;font-size: 1.5rem!important;}
+.ncw .flex-2coll .wpb_wrapper{flex-direction: row;display: -webkit-box;display: -ms-flexbox;display: flex;}
+.ncw .flex-2coll .wpb_wrapper p{flex-direction: row;display: -webkit-box;display: -ms-flexbox;display: flex;}
+.ncw .flex-2coll.center p{margin:auto;}
+.ncw .flex-2coll .wpb_wrapper .sf-button{max-height:50px;}
+.ncw .flex-2coll.center .wpb_wrapper p .sf-button{padding: 1.5rem 5rem 1.5rem!important;background-color:transparent!important;color: #FFFFFF!important;font-size: 1.5rem!important;border: solid 2px!important;border-color:#FFFFFF!important;max-height:50px;}
+.ncw #naw-widget .vc_btn3{padding: 1.5rem 5rem 1.5rem!important;background-color: #084E7C!important;color: #FFFFFF!important;font-size: 1.5rem!important;border: none!important;}
+.ncw .flex-2coll.center .wpb_wrapper p .sf-button .text{color:#FFFFFF!important;}
+.ncw .contact-development-team .sf-button{color: #084E7C!important;background-color: transparent;border: solid 2px;border-radius: 0;border-color: #084E7C;font-weight: 400!important;font-size: 1.5rem;}
+.ncw .mag-download-sec .sf-button{background: transparent!important;border: solid 2px!important;border-color: #1AA5C4!important;color: #1AA5C4!important;padding: 1.5rem 5rem 1.5rem 5rem!important;font-size: 1.5rem!important;}
+.ncw-blue-cir{position: absolute;top: -50px;left: -1000px;}
+.ncw-green-cir{position: absolute;top: 80px;left: -1000px;}
+.ncw-red-cir{position: absolute;top: -50px;left: -80px;opacity: 0.1;z-index: 0;}
+.ncw #course-page_open-event-cta .flex-2coll {flex-direction: row;display:-webkit-box;display:-ms-flexbox;display:flex;max-width: 600px;margin: auto;}
+.ncw #course-page_open-event-cta .flex-2coll h3{margin:auto;}
+/* HAIRDRESSING LANDING PAGE */
+.vc_row.wpb_row.vc_row-fluid.hairdressing-copy-container{background-color:transparent!important;top: -20vh;position: relative;z-index: 1000;}
+.hairdressing-copy-container .vc_column-inner{padding: 3rem;color:#6e6c6c;background-color:transparent!important;}
+.hairdressing-copy-container .vc_column-inner p{line-height:1.9;}
+.hairdressing-copy-container h2{font-size:1em;color:#6e6c6c;margin:1rem 0;font-weight:400;}
+#hairdressing-copy-container_left{border-right: dotted 1px;border-color: #c0c0c0;}
+.hairdressing-copy-container .sf-button.accent{color: #fff;background-color: transparent;letter-spacing: 1px;border: solid 1px !important;border-color: #d71a5c !important;color: #d71a5c !important;font-size: 1.5rem;font-weight: 400 !important;}
+.hairdressing-copy-container .sf-button.accent:hover{background-color:#d71a5c!important;color:#FFFFFF!important;}
+/* ACADEMY OF SPORT LANDING PAGE */
+.aos .page-heading {background-color: #f7f7f7;border-bottom-color: #e4e4e4;background-image: url(/wp-content/uploads/2018/09/computing_course-header.jpg);height: 400px;background-size: cover;background-position:center;border-bottom:none;}
+.aos .page-heading .container{display: -webkit-box;display: -ms-flexbox;display: flex;align-items: flex-end;justify-content: left;height: 100%;}
+.aos .page-heading .heading-text {background-color: #0A4E7A;padding: 5px;}
+.aos .page-heading .heading-text h1 {color:#FFFFFF;}
+.aos #breadcrumbs{display:none;}
+.aos #section2-left-tile *{color:#FFFFFF!important;}
+#ncw-top-sec{overflow:visible;}
+#ncw-widget{background-color: #E93F6C;color: #FFFFFF;padding: 20px;position:relative;margin-top:90px;left:50px;}
+#ncw-widget h2{color: #FFFFFF;margin:0;padding-bottom:0.3em;font-size: 1.6em;line-height:1.4;}
+#ncw-widget h3{color: #FFFFFF;}
+#ncw-widget:after{right: 0;bottom: -5rem;content: "";width: 0;height: 0;border-top: 50px solid #E93F6C;border-left: 50px solid transparent;position: absolute;}
+.aos .vc_column-inner.vc_custom_1555060382099:after {background-image: url(/wp-content/uploads/2019/04/Asset-1AoS-line-graphic.png);height: 800px;width: 100%;background-repeat: no-repeat;position: absolute;z-index: -1;margin-left: 100px;bottom: -300px;opacity: .3;}
+#share-story-tile .sf-button{background: transparent!important;border: solid 2px!important;border-color: #FFFFFF!important;color: #FFFFFF!important;padding: 1.5rem 5rem 1.5rem 5rem!important;font-size: 1.5rem!important;}
+.aos .flex-2coll .wpb_wrapper{flex-direction: row;display: -webkit-box;display: -ms-flexbox;display: flex;}
+.aos .flex-2coll .wpb_wrapper p{flex-direction: row;display: -webkit-box;display: -ms-flexbox;display: flex;}
+.aos .flex-2coll.center p{margin:auto;}
+.aos .flex-2coll .wpb_wrapper .sf-button{max-height:50px;}
+.aos .flex-2coll.center .wpb_wrapper p .sf-button{padding: 1.5rem 5rem 1.5rem!important;background-color:transparent!important;color: #FFFFFF!important;font-size: 1.5rem!important;border: solid 2px!important;border-color:#FFFFFF!important;max-height:50px;}
+.aos #naw-widget .vc_btn3{padding: 1.5rem 5rem 1.5rem!important;background-color: #084E7C!important;color: #FFFFFF!important;font-size: 1.5rem!important;border: none!important;}
+.aos .flex-2coll.center .wpb_wrapper p .sf-button .text{color:#FFFFFF!important;}
+.aos .contact-development-team .sf-button{color: #084E7C!important;background-color: transparent;border: solid 2px;border-radius: 0;border-color: #084E7C;font-weight: 400!important;font-size: 1.5rem;}
+.aos .mag-download-sec .sf-button{background: transparent!important;border: solid 2px!important;border-color: #1AA5C4!important;color: #1AA5C4!important;padding: 1.5rem 5rem 1.5rem 5rem!important;font-size: 1.5rem!important;}
+.aos-blue-cir{position: absolute;top: -50px;left: -1000px;}
+.aos-green-cir{position: absolute;top: 80px;left: -1000px;}
+.aos-red-cir{position: absolute;top: -50px;left: -80px;opacity: 0.1;z-index: 0;}
+.aos #course-page_open-event-cta .flex-2coll {flex-direction: row;display: flex;max-width: 600px;margin: auto;}
+.aos #course-page_open-event-cta .flex-2coll h3{margin:auto;}
+.aos-cat-basketball:after{content: "Coming soon";position:absolute;background-color: #FFFFFF;margin-top: -50px;padding: 0.5rem;text-transform: uppercase;font-weight: 600;letter-spacing: 1px;}
+#aos-main-feed .js-wpv-loop{display:-ms-grid;display:grid;grid-template-columns: 1fr 1fr 1fr;grid-gap: 2rem;}
+#aos-main-feed .js-wpv-loop li{list-style:none;}
+#aos-main-feed .js-wpv-loop li h2 a{color:#044C7E;}
+#aos-main-feed .js-wpv-loop li .article-readmore p a{background-color: #80BA25;padding: 0.8rem;color: #FFF;}
+/* AOS RUGBY */
+.aos-rugby .aos-cat-rugby a{color:#E2E2EF!important;border-bottom:solid;border-bottom-color:#E2E2EF;opacity:0.5;}
+.aos-rugby .js-wpv-loop{display: grid;display: -ms-grid;grid-template-columns: 1fr 1fr 1fr;grid-gap: 2rem;}
+.aos-rugby .js-wpv-loop li{list-style:none;}
+#aos-rugby-signup .sf-button{background-color: #FFF!important;border: none!important;font-size: 1.5rem!important;}
+.aos-rugby .vc_column-inner.vc_custom_1554905291004::after {background-image: url(/wp-content/uploads/2019/02/Asset-1cov-green-lines-e1539873171316.png);height: 900px;width: 400px;position: absolute;opacity: 0.9;transform: rotate(90deg);background-repeat: no-repeat;}
+.aos-rugby .js-wpv-loop li h2 a{color:#044C7E;}
+.aos-rugby .js-wpv-loop li .article-readmore p a{background-color: #80BA25;padding: 0.8rem;color: #FFF;}
+.aos-rugby-read-article-btn .vc_btn3.vc_btn3-color-default, .vc_btn3.vc_btn3-color-default.vc_btn3-style-flat {color: #FFF;background-color: #80BA25;padding: 1rem;font-weight: 600;font-size: 1.6rem;}
+.aos-news-article h3{color:#044c7e;}
+/* FEMALE RUGBY UNION */
+.new-badge.aos-badge{background-color:#C9C601;padding: 0.5rem 1.5rem;text-transform:uppercase;}
+.aos-female-rugby #page-wrap ul li{line-height: 2;}
+#aos-female-rugby-cta{margin-bottom:2rem;}
+#aos-female-rugby-cta .vc_column-inner{padding:0!important;}
+#aos-female-rugby-cta .new-badge.aos-badge{background-color:#BCAE12;padding: 0.5rem 1.5rem;text-transform:uppercase;color:#FFFFFF;}
+#aos-female-rugby-cta .wpb_content_element{margin-bottom:2rem;}
+#aos-female-rugby-cta .vc_general.vc_btn3.vc_btn3-size-md.vc_btn3-shape-square.vc_btn3-style-flat{background-color: #333;color: #FFF;text-transform: uppercase;font-weight: 600;letter-spacing: 1px;}
+/* AOS FOOTBALL */
+.aos-football .aos-cat-football a{color:#E2E2EF!important;border-bottom:solid;border-bottom-color:#E2E2EF;opacity:0.5;}
+.aos-football .js-wpv-loop{display: grid;display: -ms-grid;grid-template-columns: 1fr 1fr 1fr;grid-gap: 2rem;}
+.aos-football .js-wpv-loop li{list-style:none;}
+#aos-football-signup .sf-button{background-color: #FFF!important;border: none!important;font-size: 1.5rem!important;}
+.aos-football .vc_column-inner.vc_custom_1554905291004::after {background-image: url(/wp-content/uploads/2019/02/Asset-1cov-green-lines-e1539873171316.png);height: 900px;width: 400px;position: absolute;opacity: 0.9;transform: rotate(90deg);background-repeat: no-repeat;}
+.aos-football .js-wpv-loop li h2 a{color:#044C7E;}
+.aos-football .js-wpv-loop li .article-readmore p a{background-color: #80BA25;padding: 0.8rem;color: #FFF;}
+.aos-football-read-article-btn .vc_btn3.vc_btn3-color-default, .vc_btn3.vc_btn3-color-default.vc_btn3-style-flat {color: #FFF;background-color: #80BA25;padding: 1rem;font-weight: 600;font-size: 1.6rem;}
+.aos-news-article h3{color:#044c7e;}
+/* PRIVACY */
+.privacy .wpb_wrapper ul li{list-style:initial;margin-bottom:20px;}
+.privacy .page-heading {background-color: #f7f7f7;border-bottom-color: #e4e4e4;background-image: url(/wp-content/uploads/2018/10/college-life.jpg);height: 400px;background-size: cover;background-position:right;}
+.privacy .page-heading .container{display: -webkit-box;display: -ms-flexbox;display: flex;align-items: flex-end;justify-content: left;height: 100%;}
+.privacy .page-heading .heading-text {background-color: #0A4E7A;padding: 5px;}
+.privacy .page-heading .heading-text h1 {color:#FFFFFF;}
+.privacy #breadcrumbs{display:none;}
+/* RESTAURANT PAGE */
+.henleys-restaurant .page-heading {background-color: #f7f7f7;border-bottom-color: #e4e4e4;background-image: url(/wp-content/uploads/2019/03/Valentines-table.jpg);height: 400px;background-size: cover;background-position:right;}
+.henleys-restaurant .page-heading .container{display: -webkit-box;display: -ms-flexbox;display: flex;align-items: flex-end;justify-content: left;height: 100%;}
+.henleys-restaurant .page-heading .heading-text {background-color: #0A4E7A;padding: 5px;}
+.henleys-restaurant .page-heading .heading-text h1 {color:#FFFFFF;}
+.henleys-restaurant #breadcrumbs{display:none;}
+#naw-widget.restaurant-page{background-color: #02ACC8;color: #FFFFFF;padding: 20px;position:relative;margin-top:90px;left:50px;}
+#naw-widget.restaurant-page h2{color: #FFFFFF;margin:0;padding-bottom:0.3em;font-size: 1.6em;line-height:1.4;}
+#naw-widget.restaurant-page h3{color: #FFFFFF;}
+#naw-widget.restaurant-page:after{right: 0;bottom: -5rem;content: "";width: 0;height: 0;border-top: 50px solid #02ACC8;border-left: 50px solid transparent;position: absolute;}
+/* APPLICANT HUB */
+#all-text-light-blue *{color:#00A5C3;}
+#all-text-white *{color:#FFFFFF;}
+#applicant-mag-section .sf-button{font-size: 1em;letter-spacing: 1px;}
+#applicant-mag-section .sf-button .text{color: #01a4c2 !important;text-transform: uppercase;}
+.applicants-hub .vc_gitem-animated-block{min-height:250px;max-height:250px;width:auto;}
+.applicants-hub .vc_tta-color-white.vc_tta-style-flat .vc_tta-panel .vc_tta-panel-heading{background-color:#DF7335!important;}
+.padded-multiline{line-height: 1.4; padding: 2px 0;font-size:2.1em;max-width:750px;}
+.padded-multiline span {background-color: #FFFFFF;color:#df7335;display: inline;padding: 0.90rem;box-decoration-break: clone;-webkit-box-decoration-break: clone;text-transform:uppercase;}
+.padded-inner-red{color:#E83F6C!important;padding-left: 0 !important;}
+.padded-inner-blue{color:#00A4C2!important;padding-left: 0 !important;padding-right: 0 !important;}
+/* FITNESS CENTRE PAGE */
+.fitness-centre .page-heading {background-color: #f7f7f7;border-bottom-color: #e4e4e4;background-image: url(/wp-content/uploads/2019/05/cov-gym-header.jpg);height: 400px;background-size: cover;background-position:top;}
+.fitness-centre .page-heading .container{display: -webkit-box;display: -ms-flexbox;display: flex;align-items: flex-end;justify-content: left;height: 100%;}
+.fitness-centre .page-heading .heading-text {background-color: #0A4E7A;padding: 5px;}
+.fitness-centre .page-heading .heading-text h1 {color:#FFFFFF;}
+.fitness-centre #breadcrumbs{display:none;}
+/* COURSE PAGE */
+.single-courses .taxonomy.course-type {pointer-events: none;}
+/* HE COURSE PAGE TEMPLATE */
+.views-template-template-for-he-course #course-page_open-event-cta .sf-button {color:#333333!important;}
+.views-template-template-for-he-course{background-image: url(/wp-content/uploads/2019/01/HE-Course-Background.jpg);background-size: contain;background-position: center;}
+.views-template-template-for-he-course #main-container{background-color:transparent;}
+/* APPRENTICESHIP COURSE PAGE TEMPLATE */
+.views-template-template-for-apprenticeship-course #apply-now-box .sf-button{width: 50%;display: block;text-align: center;border-radius: 0;background-color: #0A4E7A;font-size: 0.9em;margin: 30px 0px 0 5px;}
+.views-template-template-for-apprenticeship-course .modal-body .gform_wrapper .top_label .gfield_label, .gform_wrapper legend.gfield_label{font-weight:400!important;}
+.views-template-template-for-apprenticeship-course{background-image: url(/wp-content/uploads/2019/01/Apprenticeships-Course-Background.jpg);background-size: contain;background-position: center;}
+.views-template-template-for-apprenticeship-course #main-container{background-color:transparent;}
+/* INTERNATIONAL COURSE PAGE TEMPLATE */
+.views-template-template-for-international-course #apply-now-box a h2 {background-color: #0A4E7A;display: inline-block;padding: 10px;color: #FFFFFF;margin-top: -10px;}
+.views-template-template-for-international-course{background-image: url(/wp-content/uploads/2019/01/International-Course-Background.jpg);background-size: contain;background-position: center;}
+.views-template-template-for-international-course #main-container{background-color:transparent;}
+/* FE COURSE PAGE TEMPLATE */
+.views-template-template-for-fe-course{background-image: url(/wp-content/uploads/2018/09/register-bg5.jpg);background-size: contain;background-position: top;}
+.views-template-template-for-fe-course #main-container{background-color:transparent;}
+/* FE COURSE (PRE ENTRY) PAGE TEMPLATE */
+.views-template-template-for-fe-course-preentry-level {background-image: url(/wp-content/uploads/2018/09/register-bg5.jpg);background-size: contain;background-position: top;}
+.views-template-template-for-fe-course-preentry-level #main-container{background-color:transparent;}
+/* FE COURSE (ENTRY LEVEL + LEVEL1) PAGE TEMPLATE */
+.views-template-template-for-fe-course-entry-level--level-  {background-image: url(/wp-content/uploads/2018/09/register-bg5.jpg);background-size: contain;background-position: top;}
+.views-template-template-for-fe-course-entry-level--level- #main-container{background-color:transparent;}
+/* ACCESS TO HE COURSE PAGE TEMPLATE  */
+.views-template-access-to-he-template #apply-now-box a h2 {background-color: #0A4E7A;display: inline-block;padding: 10px;color: #FFFFFF;margin-top: -10px;margin-bottom: 15px;}
+.views-template-access-to-he-template #course-page_open-event-cta .sf-button {color: #0A4E7A!important;}
+/* ////////// CSS FOR TESTING COURSE TEMPLATE ////////// */
+#course-summary-box .course-duration-conditional p {padding: 0!important;border:none;}
+#course-summary-box .course-duration-conditional p:nth-child(1):not(:only-child){display: none;}
+#course-summary-box .course-duration-conditional p:nth-child(2):not(:only-child){display: none;}
+#course-summary-box p:empty{display: none;}
+/* ////////// CSS FOR TESTING COURSE TEMPLATE ////////// */
+/* APPLICATION JOURNEY */
+.application-journey #main-container{background-color: transparent;}
+.single-courses .post-pagination-wrap{display:none;}
+.single-courses .post-info{display:none;}
+#course-title .wpb_wrapper{max-width:1140px;margin:auto;}
+#course-summary-box{color:#FFFFFF;}
+#course-summary-box h2{padding:0;margin:0;color:#FFFFFF;}
+#course-summary-box p{padding-top:10px;border-top:solid 1px;}
+#course-summary-box a{color:#FFFFFF;}
+#course-summary-box a:after{font-family: FontAwesome;content:" \f061";font-size: 1em;vertical-align: middle;margin-left: 5px;}
+.single-courses #breadcrums{background-color:transparent;padding:0;}
+#course-part-of-box h3{color:#014E7D;font-weight:400;margin: 0;padding: 10px 0px 10px 0px;}
+#course-part-of-box .wpb_text_column{margin-bottom:0;}
+#course-part-of-box p{display:none;}
+.embeded_items{width:100%;}
+.embeded_items iframe{width:100%;}
+#apply-now-box .wpb_text_column{margin-bottom:0;}
+.single-courses .vc_tta-panels{border-radius:0!important;}
+.single-courses .vc_tta-panel-body{background: #FFFFFF!important;padding: 40px 0px 0px 0px!important;}
+#apply-now-box a h2{background-color: #0A4E7A;display: inline;padding: 10px;color:#FFFFFF;}
+#apply-now-box h2{display: block;color:#333333;padding:5px 5px 5px 0px;font-size:1em;font-weight:400;}
+#apply-now-box .vc_column-inner{border-right:solid 5px;border-color:#0A4E7A;}
+#apply-now-box a h2:after{content:"\f061";font-family: FontAwesome;margin-right: 8px;color:#FFFFFF;font-weight: bold;padding: 3px 8px;border-radius: 3px;}
+.single-courses .vc_tta-tab.vc_active>a {border-color: #dddadc;background-color: #014E7D!important;color: #fff!important;}
+.single-courses .vc_tta-tab a{border-radius:0!important;}
+#apply-now-box a h2:hover {background-color: #000000;}
+#related-course-section h1{color:#014e7d;}
+.cropped_header-image{width:100%!important;}
+.single-courses .share-links{display:none;}
+.single-courses .article-body-wrap{margin-bottom:0;}
+#course-page_open-event-cta{color:#FFFFFF;}
+#course-page_open-event-cta h2{color:#FFFFFF;font-size:3.1rem}
+#course-page_open-event-cta h3{color:#FFFFFF;font-size:2rem}
+#course-page_open-event-cta .sf-button{color:#E93F6C!important;}
+#course-page_open-event-cta hr{margin-top: 20px;margin-bottom: 20px;border: 0;border-top: 3px solid #FFF;max-width: 150px;}
+.single-courses .tags-link-wrap{display:none;}
+#course-notification .wpb_wrapper{background-color: #1CACC6;color: #FFFFFF;font-size: 1.3rem;text-align: center;border-left: solid 3px;border-color: #009FDE;padding: 5px;}
+.single-courses .vc_tta-panel-body .wpb_wrapper{margin-bottom: 1rem;font-size: inherit;line-height: 1.7;text-rendering: optimizeLegibility;font-family: HelveticaNeueLTPro-Md,Helvetica,Arial,sans-serif;-webkit-font-smoothing: antialiased;-moz-osx-font-smoothing: grayscale;}
+#course-notification .wpb_wrapper:empty{display:none!important;padding:0!important;}
+.single-courses .vc_tta-panel-body .wpb_wrapper strong{margin-bottom: 1rem;font-size: inherit;line-height: 1.7;text-rendering: optimizeLegibility;font-family: HelveticaNeueLTPro-Md,Helvetica,Arial,sans-serif;-webkit-font-smoothing: antialiased;-moz-osx-font-smoothing: grayscale;}
+.single-courses .vc_tta-panel-body .wpb_wrapper a{border-bottom:solid 1px;}
+.single-courses .vc_tta-panel-body .wpb_wrapper .sf-button{border: solid 2px;border-radius: 0;border-color: #222;font-size: 1.4rem;color: #222 !important;}
+.single-courses .vc_tta-panel-body .wpb_wrapper .sf-button:hover{color: #FFFFFF !important;}
+.single-courses .vc_tta-panel-body .wpb_wrapper h2{margin-bottom: 1rem;font-size:2.2rem;line-height: 1.7;text-rendering: optimizeLegibility;font-family: HelveticaNeueLTPro-Md,Helvetica,Arial,sans-serif;-webkit-font-smoothing: antialiased;-moz-osx-font-smoothing: grayscale;}
+.single-courses .vc_tta-panel-body .wpb_wrapper hr{margin-top: 0;margin-bottom: 20px;border: 0;border-top: 1px solid #000;}
+.courses-template-default iframe{max-width:100%!important;}
+.courses-template-default #home-section2 h2{color:#0A4E7A;}
+.courses-template-default .vc_tta-panel-body{overflow:visible!important;}
+/* COURSE ARCHIVE FILTER PAGE */
+.post-type-archive-courses .page-heading {background-color: #f7f7f7;border-bottom-color: #e4e4e4;background-image: url(/wp-content/uploads/2019/01/discover-courses-2.jpg);height: 500px;background-size: cover;background-position:right;}
+.post-type-archive-courses .wpv-filter-form{float:left;width:25%;}
+.post-type-archive-courses .js-wpv-view-layout{max-width:75%;float:right;padding-left:5%;}
+.post-type-archive-courses label{display:none;}
+.campus-selection label{display:block;}
+.post-type-archive-courses .course-type-filter label{display:block!important;color:#FFFFFF;}
+.post-type-archive-courses .course-options-filter label{display:block!important;color:#FFFFFF;}
+.post-type-archive-courses .course-filter-output h3 a{font-size:2rem;color:#0A4E7A;}
+.post-type-archive-courses .view-course-btn a{font-size: 1.3rem !important;padding: 10px 15px 10px 15px;background:#7DBB4B;color:#FFFFFF;}
+.post-type-archive-courses .view-course-btn .after-text-arrow::after {font-family: FontAwesome;content: " \f061";font-size: 1em;vertical-align: bottom;margin-left: 5px;color: #FFFFFF;transition: all 0.3s ease;}
+.post-type-archive-courses .dot {height: 25px;width: 25px;background-color: #bbb;border-radius: 50%;display: inline-block;}
+.post-type-archive-courses input[type="text"]{background: #FFF;border:none;}
+.courses-page_search-btn{border: solid 2px;border-color: #145492;background-color:#0A4E7A;color: #FFFFFF;padding: 5px 25px 5px 25px;font-size:14px;margin-bottom:20px;}
+.courses-page_search-btn::after {font-family: FontAwesome;content: " \f061";font-size: 1em;vertical-align: bottom;margin-left: 5px;color: #FFFFFF;}
+.courses-page_search-btn:hover {border: solid 2px;border-color: #062f49;background-color: #062f49;color: #FFFFFF;padding: 5px 25px 5px 25px;font-size: 14px;margin-bottom: 20px;}
+/*.post-type-archive-courses .wpv-loop td{width:50%;}*/
+.post-type-archive-courses label{font-weight:400;}
+.course-block-filtering{padding:20px!important;}
+.course-block-filtering .wpb_content_element{margin-bottom:0;}
+.course-block-filtering .vc_column-inner{background-color: #f3f3f3;padding-top:0!important;border-bottom: solid 4px;border-bottom-color: #0A4E7A;}
+.course-block-filtering .vc_column-inner:hover{border-bottom-color: #7CC04B;}
+.course-block-filtering .wpb_content_element{margin-bottom:0;}
+.post-type-archive-courses .course-filter-output .vc_column-inner{-webkit-box-shadow: 0px 0px 13px 1px rgba(235, 235, 235, 1);-moz-box-shadow: 0px 0px 13px 1px rgba(235, 235, 235, 1);box-shadow: 0px 0px 13px 1px rgba(235, 235, 235, 1);margin-bottom: 3rem;border: solid 2px;border-color: rgba(0, 0, 0, 0.07);}
+.post-type-archive-courses .course-filter-output .vc_column-inner .wpb_wrapper:first-child{padding:2rem;}
+.post-type-archive-courses .course-filter-output .vc_row{border:none;}
+.post-type-archive-courses .course-filter-output .vc_column-inner .wpb_wrapper .wpb_content_element{margin-bottom:0;}
+.course-at-henley{padding: 0.2rem 0.5rem 0rem 0rem;background-color: transparent;display: inline;color: #EC7C43;font-size: 1.5rem;font-weight: 600;}
+.course-at-city{padding: 0.2rem 0.5rem 0rem 0rem;background-color: transparent;display: inline;color: #EB3C6A;font-size: 1.5rem;font-weight: 600;}
+.course-at-city strong{font-weight:400!important;}
+.course-at-henley strong{font-weight:400!important;}
+.study-option{padding: 0.2rem 1rem;background-color: transparent;display: inline;color: #666666;font-size: 1.5rem;border-left: solid 1px;border-color:#d2d2d2;font-weight:600;}
+.study-option strong{font-weight:400!important;}
+.post-type-archive-courses .view-course-btn:hover .after-text-arrow::after {margin-left: 15px;transition: all 0.3s ease;}
+.course-search-filterbox{position: sticky;position: -webkit-sticky;top: 0;}
+.post-type-archive-courses .wpv-filter-form{position: sticky;position: -webkit-sticky;top: 0;}
+/* COURSE LANDING PAGES */
+#open-events-tile{color:#FFFFFF;}
+#fees-funding{color:#FFFFFF;}
+/* COURSE SUBJECT ARCHIVE PAGES */
+.tax-course-type .page-heading{background-image: url(/wp-content/uploads/2018/12/inter_english_banner.jpg);background-size: cover;height: 300px;background-position: center;}
+.tax-course-type .heading-text{background-color: #04558B;padding: 10px;}
+.tax-course-type .heading-text h1{color:#FFFFFF;}
+.tax-course-type .vc_column-inner{min-height:300px;max-height:300px;}
+.tax-course-type .vc_column-inner p{font-size: 1.4rem;font-weight: 400;}
+.tax-course-type .vc_column-inner h3 a{color:#04558B;font-size:2rem;}
+/*FURTHER EDUCATION LANDING PAGE*/
+.further-education #main-container{background-color:transparent!important;}
+.further-education .vc_gitem-animated-block{border-bottom: solid 10px;border-bottom-color: #1CACC6;}
+.further-education .homepage-search-btn:after {color:#EE7D3B;}
+#mag-download-modal{margin:0;text-align:right;}
+#mag-download-modal .sf-button{background: #02ACC8!important;border: solid 5px;color: #FFFFFF!important;border-color: #FFFFFF!important;border-radius: 0;}
+#mag-download-cover:hover{top:-10px;transition: all 0.3s ease;opacity:0.8;}
+#mag-download-cover{top:0px;opacity:1;transition: all 0.3s ease;}
+/* INTERNATIONAL LANDING PAGE */
+.international .homepage-search-btn:after {color:#7DBB4B;}
+/*EMPLOYERS LANDING PAGE*/
+.employers .homepage-search-btn:after {color:#0A4E7A;}
+.employers .gform_wrapper input[type="submit"]{background-color: #0A4E7A!important;}
+#book-consultation-employers .sf-button.accent {color: #ffffff;background-color: #C1D82E;padding: 1.5rem 5rem 1.5rem 5rem;}
+#book-consultation-employers .vc_cta3-shape-rounded{border-radius:0!important;padding: 5rem 5rem 2rem 5rem;}
+#book-consultation-employers .vc_cta3-shape-rounded h2{margin-bottom:3rem;}
+/*HIGHER EDUCATION LANDING PAGE*/
+.higher-education .vc_gitem-animated-block{border-bottom: solid 10px;border-bottom-color: #1CACC6;}
+.higher-education .homepage-search-btn:after {color:#0A4E7A;}
+.higher-education #section2-left-tile p{color:#FFFFFF;}
+.he-guidance-posts .vc_gitem-animated-block{border:none!important;}
+.he-guidance-posts h2{color:#FFFFFF!important;}
+/* STUDENT GUIDANCE DETAIL PAGES */
+.single-student-guidance #blue-boxed-header-title h1 span{color:#FFFFFF!important;}
+.single-student-guidance #page-wrap .wpb_wrapper p a{padding: 1rem;background-color: #f3f3f3;}
+.postid-5274.single-student-guidance #page-wrap .wpb_wrapper p a{padding:0;background-color:transparent;border-bottom: dotted 1px;}
+.single-student-guidance #page-wrap .wpb_wrapper p{margin-bottom: 4rem}
+.single-student-guidance h1, .single-student-guidance h2, .single-student-guidance h1 span, .single-student-guidance h2 span{color:#024D7C!important;}
+/* APPRENTICESHIP LANDING PAGE */
+.apprenticeships .homepage-search-btn:after {color:#0A4E7A;}
+.apprenticeships #apps-student-enquire-cta{background-position:center;}
+.apprenticeships #apps-student-enquire-cta .sf-button {color: #3f3f3f!important;background-color: #FFFFFF;padding: 15px 30px 15px 30px;}
+/*STUDENT SOCIETIES*/
+.vc_gitem-zone{background-color: rgba(28, 172, 198, 0.84)!important;}
+.higher-education .vc_gitem-zone-img{max-height:250px;}
+.student-society-title h2{color:#FFFFFF;}
+.vc_gitem-post-data-source-post_title h3{font-weight:600!important;}
+.higher-education .vc_gitem-col .vc_custom_heading h3{font-size:18px!important;}
+/*COLLEFE LIFE*/
+.college-life #page-header-image {height: 500px;}
+#student-success-slider .flexslider{background: transparent;border:none;box-shadow:none;margin:0;}
+#student-success-slider .flex-caption{text-align: left;position: relative;z-index: 1000;background-color: #FFFFFF;margin-top: -40px;margin-right: 100px;top: -90px;}
+#blue-widget .widget ul li > a{color:#FFFFFF;}
+#student-success-slider .flex-caption:after{left: 0;bottom: -5rem;content: "";width: 0;height: 0;border-top: 50px solid #FFFFFF;border-right: 50px solid transparent;position: absolute;}
+#student-success-slider .flex-caption .post-title{font-size: 1.6em;margin-bottom: 2rem;}
+#student-success-slider .flex-caption .post-title a{color:#0F5A7B;}
+#student-success-slider{margin:0;}
+/* WHY COVENTRY */
+.why-coventry #page-header-image {height: 500px;}
+.why-coventry #page-header-image .wpb_content_element{max-width:100%;}
+.whycov-header-title{position: absolute;margin-top: -200px;background-color: #0A4E7A;}
+.whycov-header-title h1{color: #FFFFFF;margin: 0;padding: 10px;}
+.why-coventry .inner-page-wrap {margin-top:0;}
+/* HR WORKING AT CC */
+.working-at-coventry .page-heading {background-color: #f7f7f7;border-bottom-color: #e4e4e4;background-image: url(/wp-content/uploads/2019/04/HR-work-at-cov-banner.jpg);height: 400px;background-size: cover;background-position:right;}
+.working-at-coventry .page-heading .container{display: flex;align-items: flex-end;justify-content: left;height: 100%;}
+.working-at-coventry .page-heading .heading-text {background-color: #0A4E7A;padding: 5px;}
+.working-at-coventry .page-heading .heading-text h1 {color:#FFFFFF;}
+.working-at-coventry #breadcrumbs{display:none;}
+.working-at-coventry .vc_tta-color-grey.vc_tta-style-flat:not(.vc_tta-o-no-fill) .vc_tta-panel-body{color:#222222!important;}
+.working-at-coventry .vc_tta-panel-title > a {color: #222222c7 !important;font-size: 1em;font-weight: 600;}
+.working-at-coventry .vc_tta-color-grey.vc_tta-style-flat .vc_tta-panel .vc_tta-panel-heading {background-color: #c1d82e75!important;}
+.working-at-coventry .vc_tta.vc_general .vc_tta-panel-body{padding:4rem 20px!important;}
+.working-at-coventry .pullquote{font-size: 1.8rem;font-style: normal;line-height: 1.5;color: #0a4e7a;}
+.working-at-coventry .wpb_text_column .wpb_wrapper h1 span{color:#FFFFFF;background-color: #1caeeb;display: inline-block;padding: 0.5rem;}
+.working-at-coventry .wpb_text_column .wpb_wrapper h1{font-size:3rem;}
+.working-at-coventry-header-green h1 span{background-color:#78c439!important;color:#FFFFFF!important;}
+.working-at-coventry-header-turquoise h1 span{background-color:#00acca!important;color:#FFFFFF!important;}
+.working-at-coventry-header-lightblue h1 span{background-color:#1caeeb!important;color:#FFFFFF!important;}
+.working-at-coventry-header-nocolour h1 span{background-color:transparent!important;color:#222222!important;}
+/*INTERNATIONAL SEARCH RESULTS*/
+.international-searchresults .page-heading{background-image: url(/wp-content/uploads/2019/01/International-banner-background.jpg);background-size: cover;height: 300px;background-position: center;display:flex;}
+.international-searchresults .page-heading .container{align-self: flex-end;display: flex;}
+.international-searchresults .page-heading .heading-text{background-color:#0A4E7A;padding:10px;}
+.international-searchresults .page-heading .heading-text h1{color:#FFFFFF;}
+.international-searchresults .entry-title{color:#FFFFFF!important;}
+.international-searchresults #breadcrumbs{display:none;}
+.higher-education .remove-on-landing-page{display:none;}
+.international-searchresults .homepage-search-btn{color:#222222;background:initial;margin:auto!important;}
+.international-searchresults .form-group{display: grid;grid-template-columns: 20% 20%;background-color:#f3f3f3;padding:20px;}
+.international-searchresults select{margin:0!important;}
+.international-searchresults .wpv-filter-form .search-box{display:none;}
+.international-searchresults .wpv-filter-form .homepage-search-btn{display:none;}
+.international-searchresults .course-filter-output h3 a{font-size:2rem!important;color:#0A4E7A!important;}
+.international-searchresults .view-course-btn a{font-size: 1.3rem !important;padding: 10px 15px 10px 15px;background: #7DBB4B;}
+.international-searchresults .view-course-btn .after-text-arrow::after {font-family: FontAwesome;content: " \f061";font-size: 1em;vertical-align: bottom;margin-left: 5px;color: #FFFFFF;}
+.international-searchresults #footer-wrap{position: absolute;left: 0;right: 0;}
+/* --- INHERIT NEW RESULTS BLOCK STYLE */
+.international-searchresults .col-sm-12 .wpb_content_element{margin-bottom:0;}
+.international-searchresults .col-sm-12 .wpb_content_element{margin-bottom:0;}
+.international-searchresults .col-sm-12{-webkit-box-shadow: 0px 0px 13px 1px rgba(235, 235, 235, 1);-moz-box-shadow: 0px 0px 13px 1px rgba(235, 235, 235, 1);box-shadow: 0px 0px 13px 1px rgba(235, 235, 235, 1);margin-bottom: 3rem;border: solid 2px;border-color: rgba(0, 0, 0, 0.07);}
+.international-searchresults .vc_column-inner .wpb_wrapper:first-child{padding:2rem;}
+.international-searchresults .vc_row{border:none;}
+.international-searchresults .vc_column-inner .wpb_wrapper .wpb_content_element{margin-bottom:0;}
+.international-searchresults .view-course-btn .after-text-arrow::after {font-family: FontAwesome;content: " \f061";font-size: 1em;vertical-align: bottom;margin-left: 5px;color: #FFFFFF;transition: all 0.3s ease;}
+.international-searchresults .view-course-btn:hover .after-text-arrow::after {margin-left: 15px;transition: all 0.3s ease;}
+.international-searchresults h3 a{color: #04558B}
+/* --- INHERIT NEW RESULTS BLOCK STYLE END */
+/* PREPARING FOR COVENTRY */
+.preparing-for-coventry .page-heading {background-color: #f7f7f7;border-bottom-color: #e4e4e4;background-image: url(/wp-content/uploads/2019/01/International-banner-background.jpg);height: 400px;background-size: cover;background-position:right;}
+.preparing-for-coventry .page-heading .container{display: flex;align-items: flex-end;justify-content: left;height: 100%;}
+.preparing-for-coventry .page-heading .heading-text {background-color: #0A4E7A;padding: 5px;}
+.preparing-for-coventry .page-heading .heading-text h1 {color:#FFFFFF;}
+.preparing-for-coventry #breadcrumbs{display:none;}
+.preparing-for-coventry .vc_tta-panel-body a{border-bottom: solid 1px;color: #014E7D;}
+/* STAFF REMOTE DESKTOP */
+.staff-remote-desktop .page-heading {background-color: #f7f7f7;border-bottom-color: #e4e4e4;background-image: url(/wp-content/uploads/2018/10/college-life.jpg);height: 400px;background-size: cover;background-position:right;}
+.staff-remote-desktop .page-heading .container{display: flex;align-items: flex-end;justify-content: left;height: 100%;}
+.staff-remote-desktop .page-heading .heading-text {background-color: #0A4E7A;padding: 5px;}
+.staff-remote-desktop .page-heading .heading-text h1 {color:#FFFFFF;}
+.staff-remote-desktop #breadcrumbs{display:none;}
+.staff-remote-desktop .vc_tta-panel-body a{border-bottom: solid 1px;color: #014E7D;}
+/* FIND AN AGENT */
+.find-an-agent .page-heading {background-color: #f7f7f7;border-bottom-color: #e4e4e4;background-image: url(/wp-content/uploads/2019/01/International-banner-background.jpg);height: 400px;background-size: cover;background-position:right;}
+.find-an-agent .page-heading .container{display: flex;align-items: flex-end;justify-content: left;height: 100%;}
+.find-an-agent .page-heading .heading-text {background-color: #0A4E7A;padding: 5px;}
+.find-an-agent .page-heading .heading-text h1 {color:#FFFFFF;}
+.find-an-agent #breadcrumbs{display:none;}
+/*FE SEARCH RESULTS*/
+.fe-searchresults .page-heading{background-image: url(/wp-content/uploads/2018/12/fe-search-results.jpg);background-size: cover;height: 400px;background-position: center;display:flex;}
+.fe-searchresults .page-heading .container{align-self: flex-end;display: flex;}
+.fe-searchresults .page-heading .heading-text{background-color:#0A4E7A;padding:10px;}
+.fe-searchresults .page-heading .heading-text h1{color:#FFFFFF;}
+.fe-searchresults .entry-title{color:#FFFFFF!important;}
+.fe-searchresults #breadcrumbs{display:none;}
+.higher-education .remove-on-landing-page{display:none;}
+.fe-searchresults .homepage-search-btn{color:#222222;background:initial;margin:auto!important;}
+.fe-searchresults .form-group{display: grid;grid-template-columns: 20% 20%;background-color:#f3f3f3;padding:20px;}
+.fe-searchresults select{margin:0!important;}
+.fe-searchresults .wpv-filter-form .search-box{display:none;}
+.fe-searchresults .wpv-filter-form .homepage-search-btn{display:none;}
+.fe-searchresults .course-filter-output h3 a{font-size:2rem!important;color:#0A4E7A!important;}
+.fe-searchresults .view-course-btn a{font-size: 1.3rem !important;padding: 10px 15px 10px 15px;background: #7DBB4B;}
+.fe-searchresults .view-course-btn .after-text-arrow::after {font-family: FontAwesome;content: " \f061";font-size: 1em;vertical-align: bottom;margin-left: 5px;color: #FFFFFF;}
+.fe-searchresults #footer-wrap{position: absolute;left: 0;right: 0;}
+/* --- INHERIT NEW RESULTS BLOCK STYLE */
+.fe-searchresults .col-sm-12 .wpb_content_element{margin-bottom:0;}
+.fe-searchresults .col-sm-12 .wpb_content_element{margin-bottom:0;}
+.fe-searchresults .col-sm-12{-webkit-box-shadow: 0px 0px 13px 1px rgba(235, 235, 235, 1);-moz-box-shadow: 0px 0px 13px 1px rgba(235, 235, 235, 1);box-shadow: 0px 0px 13px 1px rgba(235, 235, 235, 1);margin-bottom: 3rem;border: solid 2px;border-color: rgba(0, 0, 0, 0.07);}
+.fe-searchresults .vc_column-inner .wpb_wrapper:first-child{padding:2rem;}
+.fe-searchresults .vc_row{border:none;}
+.fe-searchresults .vc_column-inner .wpb_wrapper .wpb_content_element{margin-bottom:0;}
+.fe-searchresults .view-course-btn .after-text-arrow::after {font-family: FontAwesome;content: " \f061";font-size: 1em;vertical-align: bottom;margin-left: 5px;color: #FFFFFF;transition: all 0.3s ease;}
+.fe-searchresults .view-course-btn:hover .after-text-arrow::after {margin-left: 15px;transition: all 0.3s ease;}
+.fe-searchresults h3 a{color: #04558B}
+/* --- INHERIT NEW RESULTS BLOCK STYLE END */
+/*HE SEARCH RESULTS*/
+.he-searchresults .page-heading{background-image: url(/wp-content/uploads/2018/12/he-search-results.jpg);background-size: cover;height: 400px;background-position: right;display:flex;}
+.he-searchresults .page-heading .container{align-self: flex-end;display: flex;}
+.he-searchresults .page-heading .heading-text{background-color:#0A4E7A;padding:10px;}
+.he-searchresults .page-heading .heading-text h1{color:#FFFFFF;}
+.he-searchresults .entry-title{color:#FFFFFF!important;}
+.he-searchresults #breadcrumbs{display:none;}
+.higher-education .remove-on-landing-page{display:none;}
+.he-searchresults .homepage-search-btn{color:#222222;background:initial;margin:auto!important;}
+.he-searchresults .form-group{/*display: grid;grid-template-columns: 50% 50%;background-color:#f3f3f3;padding:20px;*/display:none;}
+.he-searchresults select{margin:0!important;}
+.he-searchresults .wpv-filter-form .search-box{display:none;}
+.he-searchresults .wpv-filter-form .homepage-search-btn{display:none;}
+.he-searchresults .course-filter-output h3 a{font-size:2rem!important;color:#0A4E7A!important;}
+.he-searchresults .view-course-btn a{font-size: 1.3rem !important;padding: 10px 15px 10px 15px;background: #7DBB4B;}
+.he-searchresults .view-course-btn .after-text-arrow::after {font-family: FontAwesome;content: " \f061";font-size: 1em;vertical-align: bottom;margin-left: 5px;color: #FFFFFF;}
+.he-searchresults #footer-wrap{position: absolute;left: 0;right: 0;}
+/* --- INHERIT NEW RESULTS BLOCK STYLE */
+.he-searchresults .col-sm-12 .wpb_content_element{margin-bottom:0;}
+.he-searchresults .col-sm-12 .wpb_content_element{margin-bottom:0;}
+.he-searchresults .col-sm-12{-webkit-box-shadow: 0px 0px 13px 1px rgba(235, 235, 235, 1);-moz-box-shadow: 0px 0px 13px 1px rgba(235, 235, 235, 1);box-shadow: 0px 0px 13px 1px rgba(235, 235, 235, 1);margin-bottom: 3rem;border: solid 2px;border-color: rgba(0, 0, 0, 0.07);}
+.he-searchresults .vc_column-inner .wpb_wrapper:first-child{padding:2rem;}
+.he-searchresults .vc_row{border:none;}
+.he-searchresults .vc_column-inner .wpb_wrapper .wpb_content_element{margin-bottom:0;}
+.he-searchresults .view-course-btn .after-text-arrow::after {font-family: FontAwesome;content: " \f061";font-size: 1em;vertical-align: bottom;margin-left: 5px;color: #FFFFFF;transition: all 0.3s ease;}
+.he-searchresults .view-course-btn:hover .after-text-arrow::after {margin-left: 15px;transition: all 0.3s ease;}
+.he-searchresults h3 a{color: #04558B}
+/* --- INHERIT NEW RESULTS BLOCK STYLE END */
+/* APPRENTICESHIP SEARCH RESULTS */
+.apprenticeship-searchresults .wpv-filter-form{display:none;}
+.apprenticeship-searchresults .form-group{display: grid;grid-template-columns: 20% 20%;background-color:#f3f3f3;padding:20px;}
+.apprenticeship-searchresults .course-filter-output h3 a{font-size:2rem;color:#0A4E7A;}
+.apprenticeship-searchresults .view-course-btn a{font-size: 1.3rem !important;padding: 10px 15px 10px 15px;background: #7DBB4B;}
+.apprenticeship-searchresults .view-course-btn .after-text-arrow::after {font-family: FontAwesome;content: " \f061";font-size: 1em;vertical-align: bottom;margin-left: 5px;color: #FFFFFF;}
+.apprenticeship-searchresults #footer-wrap{position: absolute;left: 0;right: 0;}
+.apprenticeship-searchresults .page-heading .container{display: flex;align-items: flex-end;justify-content: left;height: 100%;}
+.apprenticeship-searchresults .page-heading .heading-text{background-color:#0A4E7A;padding:10px;}
+.apprenticeship-searchresults .page-heading .heading-text h1{color:#FFFFFF;}
+.apprenticeship-searchresults .page-heading #breadcrumbs{display:none;}
+.apprenticeship-searchresults .page-heading {background-color: #f7f7f7;border-bottom-color: #e4e4e4;background-image: url(/wp-content/uploads/2019/01/apprenticeships-2.jpg);height: 400px;background-size: cover;background-position:center;}
+/* --- INHERIT NEW RESULTS BLOCK STYLE */
+.apprenticeship-searchresults .col-sm-12 .wpb_content_element{margin-bottom:0;}
+.apprenticeship-searchresults .col-sm-12 .wpb_content_element{margin-bottom:0;}
+.apprenticeship-searchresults .col-sm-12{-webkit-box-shadow: 0px 0px 13px 1px rgba(235, 235, 235, 1);-moz-box-shadow: 0px 0px 13px 1px rgba(235, 235, 235, 1);box-shadow: 0px 0px 13px 1px rgba(235, 235, 235, 1);margin-bottom: 3rem;border: solid 2px;border-color: rgba(0, 0, 0, 0.07);}
+.apprenticeship-searchresults .vc_column-inner .wpb_wrapper:first-child{padding:2rem;}
+.apprenticeship-searchresults .vc_row{border:none;}
+.apprenticeship-searchresults .vc_column-inner .wpb_wrapper .wpb_content_element{margin-bottom:0;}
+.apprenticeship-searchresults .view-course-btn a{font-size: 1.3rem !important;padding: 10px 15px 10px 15px;background:#7DBB4B;color:#FFFFFF;}
+.apprenticeship-searchresults .view-course-btn .after-text-arrow::after {font-family: FontAwesome;content: " \f061";font-size: 1em;vertical-align: bottom;margin-left: 5px;color: #FFFFFF;transition: all 0.3s ease;}
+.apprenticeship-searchresults .view-course-btn:hover .after-text-arrow::after {margin-left: 15px;transition: all 0.3s ease;}
+.apprenticeship-searchresults h3 a{color: #04558B}
+/* --- INHERIT NEW RESULTS BLOCK STYLE END */
+/* HOMEPAGE COURSE SEARCH RESULTS */
+.course-search-results h3 a{color:#0A4E7A;}
+.course-search-results .js-wpv-view-layout .wpb_row{margin-bottom:2rem;}
+.course-search-results .course-filter-output h3 a{font-size:2rem!important;color:#0A4E7A!important;}
+.course-search-results .view-course-btn a{font-size: 1.3rem !important;padding: 10px 15px 10px 15px;background:#7DBB4B;}
+.course-search-results .view-course-btn .after-text-arrow::after {font-family: FontAwesome;content: " \f061";font-size: 1em;vertical-align: bottom;margin-left: 5px;color: #FFFFFF;}
+.course-search-results #footer-wrap{position: absolute;left: 0;right: 0;}
+/* --- INHERIT NEW RESULTS BLOCK STYLE */
+.course-search-results .col-sm-12 .wpb_content_element{margin-bottom:0;}
+.course-search-results .col-sm-12 .wpb_content_element{margin-bottom:0;}
+.course-search-results .col-sm-12{-webkit-box-shadow: 0px 0px 13px 1px rgba(235, 235, 235, 1);-moz-box-shadow: 0px 0px 13px 1px rgba(235, 235, 235, 1);box-shadow: 0px 0px 13px 1px rgba(235, 235, 235, 1);margin-bottom: 3rem;border: solid 2px;border-color: rgba(0, 0, 0, 0.07);}
+.course-search-results .vc_column-inner .wpb_wrapper:first-child{padding:2rem;}
+.course-search-results .vc_row{border:none;}
+.course-search-results .vc_column-inner .wpb_wrapper .wpb_content_element{margin-bottom:0;}
+.course-search-results .view-course-btn .after-text-arrow::after {font-family: FontAwesome;content: " \f061";font-size: 1em;vertical-align: bottom;margin-left: 5px;color: #FFFFFF;transition: all 0.3s ease;}
+.course-search-results .view-course-btn:hover .after-text-arrow::after {margin-left: 15px;transition: all 0.3s ease;}
+.course-search-results h3 a{color: #04558B}
+/* --- INHERIT NEW RESULTS BLOCK STYLE END */
+/* COLLEGE EVENTS */
+.college-events .page-heading {background-color: #f7f7f7;border-bottom-color: #e4e4e4;background-image: url(/wp-content/uploads/2018/12/college-events-banner.jpg);height: 400px;background-size: cover;background-position: bottom;}
+.college-events .js-wpv-view-layout ul{display: -webkit-flex;display: -ms-flexbox;display: flex;-webkit-flex-flow: row wrap;-ms-flex-flow: row wrap;flex-flow: row wrap;}
+.college-events .js-wpv-view-layout ul li{width: calc(33.33333% - 1rem);margin-left: 0.5rem;margin-right: 0.5rem;margin-bottom:3rem;font-size: inherit;line-height: 1.7;text-rendering: optimizeLegibility;font-family: HelveticaNeueLTPro-Md,Helvetica,Arial,sans-serif;-webkit-font-smoothing: antialiased;-moz-osx-font-smoothing: grayscale;}
+.college-events .js-wpv-view-layout ul li a{color:#0A4E7A;}
+.college-events .js-wpv-view-layout ul li h5{padding-bottom:2rem;}
+.college-events .js-wpv-view-layout ul li a:hover{color:#222222}
+.college-events .article-readmore{position: absolute;bottom: 0;}
+.college-events .js-wpv-view-layout ul li .vc_row-fluid{height:100%;}
+.college-events .js-wpv-view-layout ul li .vc_column_container{height:100%;}
+.college-events .article-readmore a{color: #FFFFFF!important;padding: 1rem;font-weight: 400!important;font-size: 1.3rem;background-color:#02ACC8!important;}
+.college-events #events-container > .wpb_wrapper{display: grid;grid-template-columns: 20% 80%;}
+.college-events .page-heading .container{display: flex;align-items: flex-end;justify-content: left;height: 100%;}
+.college-events .page-heading .heading-text{background-color:#0A4E7A;padding:10px;}
+.college-events .page-heading .heading-text h1{color:#FFFFFF;}
+.college-events .page-heading #breadcrumbs{display:none;}
+.college-events .wpv-loop li{list-style:none;}
+/* EVENT DETAIL PAGE */
+.events-template-default #event-date, .events-template-default #event-time, .events-template-default #event-location{border-bottom:solid 1px;border-color:#FFFFFF;}
+.events-template-default .post-info{display:none;}
+.events-template-default #event-title{background-image: url(/wp-content/uploads/2018/12/college-events-banner.jpg);height: 200px;background-position:bottom;margin-bottom:3rem;}
+.post-pagination-wrap{display:none;}
+.events-template-default #event-title h1{background-color:#0A4E7A!important;padding:10px;display:inline-block;}
+.events-template-default #event-title h1 span{color:#FFFFFF!important;}
+/* OPEN EVENTS */
+.open-events .page-heading {background-color: #f7f7f7;border-bottom-color: #e4e4e4;background-image: url(/wp-content/uploads/2018/12/open-events-banner.jpg);height: 400px;background-size: cover;background-position: center;}
+.open-events .js-wpv-view-layout ul{display: -webkit-flex;display: -ms-flexbox;display: flex;-webkit-flex-flow: row wrap;-ms-flex-flow: row wrap;flex-flow: row wrap;}
+.open-events .js-wpv-view-layout ul li{width: calc(33.33333% - 1rem);margin-left: 0.5rem;margin-right: 0.5rem;margin-bottom:3rem;font-size: inherit;line-height: 1.7;text-rendering: optimizeLegibility;font-family: HelveticaNeueLTPro-Md,Helvetica,Arial,sans-serif;-webkit-font-smoothing: antialiased;-moz-osx-font-smoothing: grayscale;}
+.open-events .js-wpv-view-layout ul li h2 a{color:#0A4E7A;}
+.open-events .article-readmore{position: absolute;bottom: 0;}
+.open-events .js-wpv-view-layout ul li .vc_row-fluid{height:100%;}
+.open-events .js-wpv-view-layout ul li .vc_column_container{height:100%;}
+.open-events #events-container > .wpb_wrapper{display: grid;grid-template-columns: 20% 80%;}
+.open-events .page-heading .container{display: flex;align-items: flex-end;justify-content: left;height: 100%;}
+.open-events .article-readmore a{color: #FFFFFF!important;padding: 1rem;font-weight: 400!important;font-size: 1.3rem;background-color:#009FDE!important;}
+.open-events .page-heading .heading-text{background-color:#15598A;padding:10px;}
+.open-events .page-heading h1{color: #FFFFFF;}
+.open-events .page-heading #breadcrumbs{display:none;}
+.open-events .wpv-loop li{list-style:none;}
+.open-events #article-readmore a{color: #FFFFFF!important;padding: 1rem;font-weight: 400!important;font-size: 1.3rem;background-color:#009FDE!important;}
+/* COLLEGE NEWS */
+.media-wrap{display:none;}
+.college-news .page-heading {background-color: #f7f7f7;border-bottom-color: #e4e4e4;background-image: url(/wp-content/uploads/2018/10/health-social-banner.jpg);height: 400px;background-size: cover;background-position: top;}
+.college-news .wpv-loop li{list-style:none;}
+.college-news .js-wpv-view-layout ul{display: -webkit-flex;display: -ms-flexbox;display: flex;-webkit-flex-flow: row wrap;-ms-flex-flow: row wrap;flex-flow: row wrap;}
+.college-news .js-wpv-view-layout ul li{width: calc(33.33333% - 1rem);margin-left: 0.5rem;margin-right: 0.5rem;margin-bottom:3rem;font-size: inherit;line-height: 1.7;text-rendering: optimizeLegibility;font-family: HelveticaNeueLTPro-Md,Helvetica,Arial,sans-serif;-webkit-font-smoothing: antialiased;-moz-osx-font-smoothing: grayscale;}
+.college-news .js-wpv-view-layout ul li a{color:#222222;}
+.college-news .js-wpv-view-layout ul li h2 a {color: #0A4E7A;border-left: solid 5px;padding-left: 5px;border-color: #C1D82E;}
+.college-news .js-wpv-view-layout ul li a:hover{color:#222222}
+.college-news .article-readmore{position: absolute;bottom: 0;}
+.college-news .article-readmore a{color: #FFFFFF!important;padding: 1rem;font-weight: 400!important;font-size: 1.3rem;background-color:#cad400!important;}
+.college-news .js-wpv-view-layout ul li .vc_row-fluid{height:100%;}
+.college-news .js-wpv-view-layout ul li .vc_column_container{height:100%;}
+#events-container > .wpb_wrapper{display: grid;grid-template-columns: 100%;}
+.college-news .page-heading .container{display: flex;align-items: flex-end;justify-content: left;height: 100%;}
+.college-news .page-heading .heading-text{background-color:#0A4E7A;padding:10px;}
+.college-news .page-heading .heading-text h1{color:#FFFFFF;}
+.college-news .page-heading #breadcrumbs{display:none;}
+.college-news-date{font-weight: 400!important;background-color: #FFF;position: absolute;padding: 1rem;margin-top: -50px;font-size: 1.5rem;color: #000;}
+/* NEWS DETAIL PAGES */
+.post-info{display:none;}
+.single-post .page-heading{background-image: url(/wp-content/uploads/2018/12/college-events-banner.jpg);background-position: bottom;height: 200px;}
+.single-post .page-heading .heading-text{background-color:#0A4E7A;padding:10px;}
+.single-post .page-heading .heading-text h1{color:#FFFFFF;white-space:pre-line;}
+.single-post #breadcrumbs{display:none;}
+/* CONTACT PAGE */
+.contactus .inner-page-wrap{margin-top:0;}
+.contactus .address_zip{width:100%!important;}
+.contactus #page-header-image {background-position: top!important;height: 400px;}
+.after-text-arrow{color:#000000;}
+.after-text-arrow:after{font-family: FontAwesome;content: " \f061";font-size: 1em;vertical-align: middle;margin-left: 5px;}
+.contactus .vc_tta-panel-body .after-text-arrow{color:#1CACC6;}
+.contactus #standard-toggles .vc_tta-panel-body {padding-left: 0;}
+.contactus .gform_wrapper label.gfield_label, .gform_wrapper legend.gfield_label{font-weight:400;}
+#absence-widget:after {right: 1.8rem;bottom: -3rem;content: "";width: 0;height: 0;border-top: 50px solid #009FDE;border-left: 50px solid transparent;position: absolute;}
+.contact-header-title{position: absolute;margin-top: -100px;background-color: #0A4E7A;}
+.contact-header-title h1{color: #FFFFFF;margin: 0;padding: 10px;}
+/* CASE STUDIES POST STYLING */
+.case-study-post .page-heading {background-image: url(/wp-content/uploads/2019/04/case-study-post-banner.png);background-color: #0a4e7a;height: auto !important;background-size: cover;
+background-repeat: no-repeat;background-position: right;}
+.case-study-post .page-heading .heading-text {background-color: transparent;padding: 10px;}
+.case-study-post .pullquote{font-size: 2rem;line-height: 1.5;color: #024D7C;border-left-color: #b4b4b4;margin-top: 3rem;margin-bottom: 3rem;background-color: #f2f2f2;padding: 3rem;font-style:normal;}
+.case-study-post .wpb_content_element p a{color: #0A4E7A;border-bottom: dotted 1px;}
+.case-study-post .article-body-wrap h1{font-size: 1.8em;}
+/* TERM DATES PAGE */
+.term-dates .column-1{font-size: 1.2em;color: #165165;}
+.term-dates #tablepress-1 br{display:none;}
+.term-dates .page-heading {background-color: #f7f7f7;border-bottom-color: #e4e4e4;background-image: url(/wp-content/uploads/2018/10/college-life.jpg);height: 400px;background-size: cover;background-position:right;}
+.term-dates .page-heading .container{display: flex;align-items: flex-end;justify-content: left;height: 100%;}
+.term-dates .page-heading .heading-text {background-color: #0A4E7A;padding: 5px;}
+.term-dates .page-heading .heading-text h1 {color:#FFFFFF;}
+.term-dates #breadcrumbs{display:none;}
+/* WORK AT COVENTRY CTA */
+#work-at-cov-container{background-position:top!important;}
+#work-at-cov .wpb_wrapper{max-width: 1140px;margin: auto;}
+#work-at-cov .wpb_wrapper h2{font-size:3.1rem;color:#FFFFFF;}
+#work-at-cov .wpb_wrapper p{color:#FFFFFF;}
+#work-at-cov hr{margin-top: 20px;margin-bottom: 20px;border: 0;border-top: 3px solid #FFF;max-width: 150px;}
+/* TRAINING PROGRAMMES */
+#training-programmes-boxes .vc_general.vc_cta3.vc_cta3-shape-square{min-height:300px;border: solid 2px;border-color: #CAD22C;display: flex;align-items: center;justify-content: center;}
+#training-programmes-boxes a.sf-button.blue {background-color: #004B81!important;}
+#training-programmes-boxes a.sf-button.blue:hover {background-color: #071F36!important;}
+#training-programmes-boxes .vc_general.vc_cta3.vc_cta3-shape-square h2{color:#044C7E;}
+/* PROFESSIONAL SHORT COURSES */
+#professional-short-courses-row .read-more-state {display: none;}
+#professional-short-courses-row .read-more-target {opacity: 0;max-height: 0;font-size: 0;transition: .25s ease;}
+#professional-short-courses-row .read-more-target br {display:none;}
+#professional-short-courses-row .read-more-state:checked ~ .read-more-wrap .read-more-target br {display: block;}
+#professional-short-courses-row .read-more-state:checked ~ .read-more-wrap .read-more-target{opacity: 1;font-size: inherit;max-height: 999em;margin:0;}
+#professional-short-courses-row .read-more-state ~ .read-more-trigger:before {content: 'Read more about this course';}
+#professional-short-courses-row .read-more-state ~ .read-more-trigger:after {font-family: FontAwesome;content: " \f0ab";font-size: 1em;vertical-align: middle;margin-left: 5px;}
+#professional-short-courses-row .read-more-state:checked ~ .read-more-trigger:after {font-family: FontAwesome;content: " \f0aa";font-size: 1em;vertical-align: middle;margin-left: 5px;}
+#professional-short-courses-row .read-more-state:checked ~ .read-more-trigger:before {content: 'Read less';}
+#professional-short-courses-row .read-more-trigger {cursor: pointer;display: inline-block;color:#0A4E7A;font-size: 1em;line-height: 2;border:none;position:absolute;margin-top:-50px;font-weight:400;}
+#professional-short-courses-row .read-more-state:checked ~ .read-more-trigger{position:initial;margin-top:0!important;}
+#professional-short-courses-row .professional-course-block .vc_column-inner{border:solid 1px;border-color:#145492;padding:2rem;}
+#professional-short-courses-row .wpb_raw_html{margin-bottom:0;}
+/* EMPLOYING AN APPRENTICE */
+.employing-apprentice #employing-apprentice-sections .wpb_text_column{min-height:600px;display: flex;align-items:flex-start;justify-content: center;}
+.employing-apprentice .wpb-js-composer .vc_tta-color-blue.vc_tta-style-outline .vc_tta-tab>a {border-color: #0A4E7A!important;color: #0A4E7A!important;}
+.employing-apprentice .vc_tta-panel-body{border-color: #0A4E7A!important;}
+.employing-apprentice .wpb-js-composer .vc_tta.vc_general .vc_tta-tab>a{padding: 14px 120px!important;}
+.employing-apprentice .vc_tta-tab.vc_active>a{background-color:#0A4E7A!important;color: #FFFFFF!important;border-color:#0A4E7A!important;}
+.employing-apprentice .vc_tta-tab>a{background-color:#CAD22C!important;color: #FFFFFF!important;padding: 14px 130px!important;border-bottom-color:#145492!important;border-top-color:#CAD22C!important;border-left-color:#CAD22C!important;border-right-color:#CAD22C!important;}
+.employing-apprentice #course-page_open-event-cta .sf-button {color: #3f3f3f!important;background-color: #FFFFFF;padding: 15px 30px 15px 30px;}
+.employing-apprentice .in-text-sub-list{margin-top:10px;margin-bottom:10px;}
+.employing-apprentice .in-text-sub-list li:before{font-family: FontAwesome;content: " \f105";font-size: 1em;vertical-align: middle;margin-left: 5px;padding-right: 10px;}
+.employing-apprentice .in-text-sub-list{list-style:none!important;}
+/* ROOM HIRE */
+.room-hire .page-heading {background-color: #f7f7f7;border-bottom-color: #e4e4e4;background-image: url(/wp-content/uploads/2019/02/room-hire-2.jpg);height: 400px;background-size: cover;background-position:right;}
+.room-hire .page-heading .container{display: flex;align-items: flex-end;justify-content: left;height: 100%;}
+.room-hire .page-heading .heading-text {background-color: #0A4E7A;padding: 5px;}
+.room-hire .page-heading .heading-text h1 {color:#FFFFFF;}
+.room-hire #breadcrumbs{display:none;}
+.room-hire #hire-room-form-container .gform_body{background-color: #FFFFFF;padding: 3rem 5rem;border: solid 2px;border-color: #e3e1e1;}
+/* INDUSTRY FOCUS */
+#industry-focus-accordian{color:#FFFFFF;}
+#industry-focus-accordian .vc_tta-panel-heading h4 a{color:#FFFFFF!important;font-size: 16px;line-height: 1.6;font-weight: 600;}
+#industry-focus-accordian .vc_tta-panel-heading:hover{background-color:#b8c100;}
+/*HOSPITALITY AND CATERING PROGRAMMES */
+.hosp-catering-programmes .vc_tta-panel-title>a{font-size:14px!important;color:#FFFFFF!important;font-weight:600;}
+.hosp-catering-programmes .vc_tta-panel-heading:hover{background-color:#b8c100!important;}
+.hosp-catering-programmes .vc_tta-panel-heading{border:none!important;}
+.hosp-catering-programmes .vc_tta-controls-icon{right:initial!important}
+.hosp-catering-programmes .vc_tta-title-text{margin-right:10px;}
+.hosp-catering-programmes .vc_tta-panel-body{color:#FFFFFF;}
+/*CONGRATS EMAIL CONFETTI SVG*/
+#applicant-confetti{opacity:0.1;position:absolute;width: 100%;height: 600px;}
+.conf0{fill:#004d7f;}
+.conf1{fill:#7ebc0b;}
+.conf2{fill:#00acca;}
+.conf3{fill:#00acca;}
+.conf4{fill:#00acca;}
+.conf5{fill:#00acca;}
+.conf6{fill:#94c53f;}
+.conf7{display:none;fill:none;stroke:#000000;stroke-miterlimit:10;}
+.conf8{fill:none;stroke:#ee3868;stroke-width:9;stroke-linecap:round;stroke-miterlimit:10;}
+
+
+.confetti-cone{
+  transform-origin: 200px 50px;
+  animation:confetti-cone1 1.2s ease infinite;
+}
+@keyframes confetti-cone1{
+0%{
+   transform:translate(40px, 95px)  rotate(45deg) scale(1, 1);
+}
+15%{
+   transform:translate(10px, 145px)  rotate(45deg) scale(1.1, 0.85);
+
+}
+100%{
+  transform:translate(40px, 105px)  rotate(45deg) scale(1, 1);
+}
+  }
+
+#yellow-strip {
+  fill:none;
+  stroke:#e1b828;
+  stroke-width:9;
+  stroke-linecap:round;
+  stroke-miterlimit:10;
+  animation: confdash 1.2s ease infinite;
+}
+
+
+@keyframes confdash {
+0%{
+  stroke-dasharray:1000;
+  stroke-dashoffset:500;
+  transform:translate(-30px, 30px);
+  opacity:0;
+}
+2%{
+  stroke-dasharray:1000;
+  stroke-dashoffset:500;
+  transform:translate(-30px, 30px);
+  opacity:0;
+}
+35%{
+stroke-dasharray:1000;
+stroke-dashoffset:900;
+transform:translate(-2px, 0px);
+opacity:1;
+}
+
+85%{
+  stroke-dasharray:1000;
+  stroke-dashoffset:1000;
+  transform:translate(1px, -5px);
+  opacity:1;
+}
+  90%{
+  stroke-dashoffset:1000;
+   stroke-dashoffset:1000;
+  transform:translate(2px, -8px);
+  opacity:0;
+}
+  100%{
+  stroke-dashoffset:1000;
+   stroke-dashoffset:500;
+  transform:translate(2px, -8px);
+  opacity:0;
+}
+}
+
+
+
+#a2{
+  transform-origin: 310.9px 241px;
+  animation: confa 1.2s ease-out infinite;
+}
+
+#a1
+{transform-origin: 276px 246px;
+  animation: confa 1.2s ease-out infinite;
+}
+
+@keyframes confa {
+0%{
+  opacity:0;
+  transform: translate(-30px, 20px) rotate(0);
+}
+15%{
+  opacity:1;
+  transform: translate(25px, -10px) rotate(60deg);
+}
+80%{
+  opacity:1;
+  transform: translate(33px, -18px) rotate(180deg);
+}
+100%{
+  opacity:0;
+  transform: translate(37px, -23px) scale(0.5)rotate(230deg);
+}
+}
+
+
+#b1{
+  transform-origin: 195.2px 232.6px;
+  animation: confb 1.2s ease-out infinite;
+}
+
+#b2{
+  transform-origin: 230.8px 219.8px;
+  animation: confb 1.2s ease-out infinite;
+}
+#b3 {transform-origin: 222.8px 190.6px;
+  animation: confb 1.2s ease-out infinite;
+}
+
+#b4 {transform-origin: 262px 188.5px;
+  animation: confb 1.2s ease-out infinite;
+}
+
+#b5 {transform-origin: 282.3px 170.6px;
+  animation: confb 1.2s ease-out infinite;
+}
+
+
+@keyframes confb {
+0%{
+  opacity:0;
+  transform: translate(-30px, 20px) rotate(0);
+}
+12%{
+  opacity:1;
+  transform: translate(25px, -10px) rotate(60deg);
+}
+76%{
+  opacity:1;
+  transform: translate(33px, -18px) rotate(180deg);
+}
+100%{
+  opacity:0;
+  transform: translate(37px, -23px) scale(0.5) rotate(240deg);
+}
+}
+
+#c1 {transform-origin: 174.8px 183.4px;
+  animation: confc 1.2s ease-out infinite;
+}
+#c2{
+  transform-origin: 178.9px 156.2px;
+  animation: confc 1.2s ease-out infinite;
+}
+
+#c3{
+  transform-origin: 206.7px 140px;
+  animation: confc 1.2s ease-out infinite;
+}
+
+#c4{
+  transform-origin: 213.5px 120.2px;
+  animation: confc 1.2s ease-out infinite;
+}
+
+@keyframes confc {
+0%{
+  opacity:0.7;
+  transform: translate(-30px, 20px) rotate(0);
+}
+18%{
+  opacity:1;
+  transform: translate(5px, -10px) rotate(60deg);
+}
+76%{
+  opacity:1;
+  transform: translate(13px, -18px) rotate(180deg);
+}
+100%{
+  opacity:0;
+  transform: translate(17px, -23px) scale(0.5) rotate(230deg);
+}
+}
+
+#d1{
+  transform-origin: 127px 176px;
+  animation: confd 1.2s ease-out infinite;
+}
+#d2 {transform-origin: 133px 118px;
+  animation: confd 1.2s ease-out infinite;
+}
+#d3{ transform-origin: 152px 100px;
+  animation: confd 1.2s ease-out infinite;
+}
+
+@keyframes confd {
+0%{
+  opacity:0.7;
+  transform: translate(-20px, 20px) rotate(0);
+}
+18%{
+  opacity:1;
+  transform: translate(-5px, -10px) rotate(60deg);
+}
+76%{
+  opacity:1;
+  transform: translate(-8px, -18px) rotate(180deg);
+}
+100%{
+  opacity:0;
+  transform: translate(-10px, -23px) scale(0.5) rotate(230deg);
+}
+}
+/*CONGRATS EMAIL CONFETTI SVG*/
+/* EMAIL RESPONDER PAGE */
+.email-offer-responder .offer-responder-form_container{max-width:65ch;margin:auto;}
+.email-offer-responder p{text-align: center;font-size: 1.7rem;line-height: 1.6;color: #4b4b4b;}
+.email-offer-responder .offer-responder-form_container h1{color: #004d7f;font-size: 3rem;line-height: 1.5;}
+.email-offer-responder .offer-responder-form_container h2{color: #7d7979;font-size: 2.3rem;margin-bottom: 4rem;margin-top:0;}
+.applicant-email--in-text-congratulations{color: #94c53f;border-bottom: dotted 5px;border-bottom-color: #94c53f3d;}
+.email-offer-responder #footer{display:none;}
+.email-offer-responder #copyright{display:none;}
+.email-offer-responder #input_26_1{display:-ms-grid;display:grid;grid-template-columns: 1fr 1fr;margin: auto;text-align: center;grid-gap: 3rem;}
+.email-offer-responder .gform_wrapper{max-width: 100%;margin: auto;}
+.email-offer-responder .gchoice_26_1_1{background-color: #7ebc0b;padding: 1rem !important;color: #FFF;font-size: 2rem;text-transform: uppercase;margin: 0 !important;}
+.email-offer-responder .gchoice_26_1_2{background-color: #c5c5c5;padding: 1rem !important;color: #FFF;font-size: 2rem;text-transform: uppercase;margin: 0 !important;}
+.email-offer-responder .gform_wrapper ul.gfield_checkbox li, .gform_wrapper ul.gfield_radio li{padding:1rem!important;}
+#choice_26_1_1{margin:0!important;}
+#gchoice_26_1_2{margin:0!important;}
+#field_26_1{margin:0!important;}
+#field_26_1 .gfield_label{text-align: center;width: 100%;font-size: 1.8rem;}
+#field_26_1 .gfield_label .gfield_required{display:none;}
+/* ==============================
+   ELLODAVE RESPONSIVE BREAKPOINTS
+   Template Updated: 06.18 RH
+   ============================== */
+
+/* ----------- Desktops, Laptops ----------- */
+@media (min-width: 1025px){
+#course-info-section {margin-top: -150px!important;}
+.hospitality-catering-signupcta{margin-left:10rem;margin-right:10rem;}
+.remove-desktop{display:none!important;}
+}
+
+/* ----------- iPhone 5, 5S, 5C and 5SE ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+.remove-mobile{display:none!important;}
+#search-by-subject-form .form-group {width: 100%;}
+.no-padding-responsive .vc_column-inner{padding:0!important;}
+#advice-widget{position:initial!important;margin: auto;}
+#advice-widget:after{display:none;}
+.post-type-archive-courses .wpv-filter-form {float: left;width: 100%;}
+.post-type-archive-courses .js-wpv-view-layout {max-width: 100%;float: right;padding: 10% 0% 0% 0%;}
+#course-title h1{font-size:3rem;}
+.courses-template-default .vc_tta-panel-body{background-color:#FFFFFF!important;border:0!important;}
+.wpb-js-composer .vc_tta.vc_general .vc_tta-panel-title > a{font-weight:600;background-color:#f2f2f2;}
+.support .wpb-js-composer .vc_tta.vc_general .vc_tta-panel-title > a{font-weight:600;background-color:#259FB4!important;}
+.college-events .js-wpv-view-layout ul li{width:auto!important;margin-left: 0.5rem;margin-right: 0.5rem;}
+.open-events .js-wpv-view-layout ul li{width:auto!important;margin-left: 0.5rem;margin-right: 0.5rem;}
+#events-container > .wpb_wrapper{display:block!important;width:100%!important;}
+.college-news .js-wpv-view-layout ul li{width:100%!important;}
+#blue-widget {position: initial!important;margin-top: 0!important;left: initial!important;}
+#blue-widget:after {display:none!important;}
+.advice-widget_square{position: initial;margin-top: auto;left: 0;}
+#our-next-event-bar{padding-left:1rem;padding-right:1rem;}
+.ms-slide .ms-slide-bgvideocont{display:none;}
+.contact-header-title{position:initial!important;margin-bottom: 80px;margin-top: -150px;}
+.views-template-template-for-fe-course{background-image:none!important;}
+.views-template-template-for-international-course{background-image:none!important;}
+.views-template-template-for-apprenticeship-course{background-image:none!important;}
+.views-template-template-for-he-course{background-image:none!important;}
+.home .homepage-search-btn{background: #0A4E7A!important;margin-left: 0!important;vertical-align: middle;margin-top: 2rem;color: #FFFFFF;font-size: 1.8rem;width: 100%;font-weight:600;}
+.home .homepage-search-btn:after {display:none;}
+#full-width-flex .vc_row{display: flex;flex-direction: column;justify-content: center;}
+#full-width-flex .vc_row .wpb_column{width:100%;}
+#full-width-flex .vc_row .wpb_column:nth-child(2) {display: none;}
+.vc_custom_1547563406234{background-size:cover!important;}
+.modal-plane{display:none!important;}
+.employing-apprentice .vc_tta-panel-heading {border-color: #04558B!important;}
+.international .wpb_revslider_element, .employers .wpb_revslider_element {max-height:inherit!important;}
+#section2-left-tile .vc_custom_1544606931197{padding-top:0!important;padding-bottom:0!important;}
+.key-policies .wpb-js-composer .vc_tta-color-blue.vc_tta-style-flat .vc_tta-panel .vc_tta-panel-body, .wpb-js-composer .vc_tta-color-blue.vc_tta-style-flat .vc_tta-panel.vc_active .vc_tta-panel-heading{border:solid 1px;border-color: #04558B!important;background-color:transparent!important;}
+.single-post .page-heading .heading-text{float:left!important;margin-bottom:4vh;}
+#blue-toggles .vc_tta-panel-body .wpb_wrapper {color: #FFFFFF;max-width: 100%;}
+#blue-toggles iframe{width:100%!important}
+#standard-toggles li {list-style-position: inside;text-indent: -1em;}
+#standard-toggles li::before{margin-right:0;margin-left:-1em;}
+#standard-toggles .one_half{overflow:visible;}
+#blue-cir_support-img-overlay {margin-left: -3rem;}
+.apprenticeships .homepage-search-btn{background: #183950!important;margin-left: auto!important;vertical-align: middle!important;color: #FFF!important;border-radius: 0!important;width: 100%!important;margin-top: 2vh!important;font-size: 1.8rem!important;}
+.apprenticeships .homepage-search-btn::after {display:none;}
+.higher-education .homepage-search-btn{background: #183950!important;margin-left: auto!important;vertical-align: middle!important;color: #FFF!important;border-radius: 0!important;width: 100%!important;margin-top: 2vh!important;font-size: 1.8rem!important;}
+.higher-education .homepage-search-btn::after {display:none;}
+.international .homepage-search-btn{background: #3B780B!important;margin-left: auto!important;vertical-align: middle!important;color: #FFF!important;border-radius: 0!important;width: 100%!important;margin-top: 2vh!important;font-size: 1.8rem!important;}
+.international .homepage-search-btn::after {display:none;}
+.further-education .homepage-search-btn{background:#AB4F1F!important;margin-left: auto!important;vertical-align: middle!important;color: #FFF!important;border-radius: 0!important;width: 100%!important;margin-top: 2vh!important;font-size: 1.8rem!important;}
+.further-education .homepage-search-btn::after {display:none;}
+.study-option{padding:0;display:block;border:0;}
+.course-search-results .vc_column-inner .wpb_wrapper:first-child{padding:0rem 0rem 0rem 0rem;}
+.naw .vc_column-inner.vc_custom_1551111717507:after{display:none;}
+.naw .vc_column-inner.vc_custom_1551104364217:after{display:none;}
+.resp-tile-img{height:500px;}
+.ncw #course-page_open-event-cta .flex-2coll h3 a{border:none;}
+.key-policies-procedures .key-policies-procedures_tabs .vc_tta-panel-heading {background-color: #024D7C!important;}
+.key-policies-procedures .key-policies-procedures_tabs .vc_tta-panel-title a{color:#FFFFFF!important;}
+.key-policies-procedures .key-policies-procedures_tabs .vc_tta-panel.vc_active .vc_tta-panel-title > a{color:#024D7c!important;}
+#blue-toggles table{width:100%!important;}
+.apprentice-tabs .wpb_text_column{padding:0!important;}
+#book-consultation-employers .vc_cta3-shape-rounded {padding: 1rem!important;}
+.preparing-for-cov-toggles .vc_column-inner{padding-left:0!important;padding-right:0!important;}
+.aos .vc_column-inner.vc_custom_1554897956983:after {display:none;}
+.vc_column-inner.vc_custom_1554898646377{padding:1rem!important;}
+.vc_column-inner.vc_custom_1554902109354{padding:1rem!important;}
+.vc_column-inner.vc_custom_1554901548028{height:300px;}
+.vc_column-inner.vc_custom_1554897956983{height:300px;}
+.email-offer-responder #input_26_1{grid-template-columns:1fr;}
+.email-offer-responder .gform_wrapper{max-width: 100%;}
+.vc_row.wpb_row.vc_row-fluid.hairdressing-copy-container{top:inherit!important;position:inherit!important;}
+#applicant-mag-section{margin-top:15vh;}
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+#course-category-boxes .vc_column_container .wpb_content_element{max-height:140px;min-height: 120px;}
+#course-category-boxes .vc_column_container .wpb_content_element .wpb_wrapper{margin: -15px 0px 0px 0px;}
+.aboutus #course-category-boxes .vc_column_container .wpb_content_element{max-height:160px;min-height: 120px;}
+.aboutus #course-category-boxes .vc_column_container .wpb_content_element .wpb_wrapper{margin: -30px 0px 0px 0;}
+.pending::after {left: 55px;}
+.wpb_wrapper h1{font-size:3rem;}
+#professional-short-courses-row .wpb_raw_html {margin-bottom: 3rem;}
+}
+/* Landscape */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+#course-category-boxes{max-width: 80%;margin: auto;}
+#course-category-boxes .vc_col-sm-2{width:33.33%;}
+#coventry-skyline .wpb_wrapper{width:100%;}
+#coventry-skyline .vc_single_image-wrapper{width:100%;}
+.home #course-search-tile .vc_col-sm-6{width:100%;}
+}
+
+/* ----------- iPhone 6, 6S, 7 and 8 ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2) { 
+.remove-mobile{display:none!important;}
+#search-by-subject-form .form-group {width: 100%;}
+.no-padding-responsive .vc_column-inner{padding:0!important;}
+#advice-widget{position:initial!important;margin: auto;}
+#advice-widget:after{display:none;}
+.post-type-archive-courses .wpv-filter-form {float: left;width: 100%;}
+.post-type-archive-courses .js-wpv-view-layout {max-width: 100%;float: right;padding: 10% 0% 0% 0%;}
+#course-title h1{font-size:3rem;}
+.courses-template-default .vc_tta-panel-body{background-color:#FFFFFF!important;border:0!important;}
+.wpb-js-composer .vc_tta.vc_general .vc_tta-panel-title > a{font-weight:600;background-color:#f2f2f2;}
+.support .wpb-js-composer .vc_tta.vc_general .vc_tta-panel-title > a{font-weight:600;background-color:#259FB4!important;}
+.college-events .js-wpv-view-layout ul li{width:auto!important;margin-left: 0.5rem;margin-right: 0.5rem;}
+.open-events .js-wpv-view-layout ul li{width:auto!important;margin-left: 0.5rem;margin-right: 0.5rem;}
+#events-container > .wpb_wrapper{display:block!important;width:100%!important;}
+.college-news .js-wpv-view-layout ul li{width:100%!important;}
+#blue-widget {position: initial!important;margin-top: 0!important;left: initial!important;}
+#blue-widget:after {display:none!important;}
+.advice-widget_square{position: initial;margin-top: auto;left: 0;}
+#our-next-event-bar{padding-left:1rem;padding-right:1rem;}
+.ms-slide .ms-slide-bgvideocont{display:none;}
+.contact-header-title{position:initial!important;margin-bottom: 80px;margin-top: -150px;}
+.views-template-template-for-fe-course{background-image:none!important;}
+.views-template-template-for-international-course{background-image:none!important;}
+.views-template-template-for-apprenticeship-course{background-image:none!important;}
+.views-template-template-for-he-course{background-image:none!important;}
+.home .homepage-search-btn{background: #0A4E7A!important;margin-left: 0!important;vertical-align: middle;margin-top: 2rem;color: #FFFFFF;font-size: 1.8rem;width: 100%;font-weight:600;}
+.home .homepage-search-btn:after {display:none;}
+#full-width-flex .vc_row{display: flex;flex-direction: column;justify-content: center;}
+#full-width-flex .vc_row .wpb_column{width:100%;}
+#full-width-flex .vc_row .wpb_column:nth-child(2) {display: none;}
+.vc_custom_1547563406234{background-size:cover!important;}
+.modal-plane{display:none!important;}
+.employing-apprentice .vc_tta-panel-heading {border-color: #04558B!important;}
+#section2-left-tile .vc_custom_1544606931197{padding-top:0!important;padding-bottom:0!important;}
+.key-policies .wpb-js-composer .vc_tta-color-blue.vc_tta-style-flat .vc_tta-panel .vc_tta-panel-body, .wpb-js-composer .vc_tta-color-blue.vc_tta-style-flat .vc_tta-panel.vc_active .vc_tta-panel-heading{border:solid 1px;border-color: #04558B!important;background-color:transparent!important;}
+.single-post .page-heading .heading-text{float:left!important;margin-bottom:4vh;}
+#blue-toggles .vc_tta-panel-body .wpb_wrapper {color: #FFFFFF;max-width: 100%;}
+#blue-toggles iframe{width:100%!important}
+#standard-toggles li {list-style-position: inside;text-indent: -1em;}
+#standard-toggles li::before{margin-right:0;margin-left:-1em;}
+#standard-toggles .one_half{overflow:visible;}
+#blue-cir_support-img-overlay {margin-left: -3rem;}
+.apprenticeships .homepage-search-btn{background: #183950!important;margin-left: auto!important;vertical-align: middle!important;color: #FFF!important;border-radius: 0!important;width: 100%!important;margin-top: 2vh!important;font-size: 1.8rem!important;}
+.apprenticeships .homepage-search-btn::after {display:none;}
+.higher-education .homepage-search-btn{background: #183950!important;margin-left: auto!important;vertical-align: middle!important;color: #FFF!important;border-radius: 0!important;width: 100%!important;margin-top: 2vh!important;font-size: 1.8rem!important;}
+.higher-education .homepage-search-btn::after {display:none;}
+.international .homepage-search-btn{background: #3B780B!important;margin-left: auto!important;vertical-align: middle!important;color: #FFF!important;border-radius: 0!important;width: 100%!important;margin-top: 2vh!important;font-size: 1.8rem!important;}
+.international .homepage-search-btn::after {display:none;}
+.further-education .homepage-search-btn{background:#AB4F1F!important;margin-left: auto!important;vertical-align: middle!important;color: #FFF!important;border-radius: 0!important;width: 100%!important;margin-top: 2vh!important;font-size: 1.8rem!important;}
+.further-education .homepage-search-btn::after {display:none;}
+.study-option{padding:0;display:block;border:0;}
+.course-search-results .vc_column-inner .wpb_wrapper:first-child{padding:0rem 0rem 0rem 0rem;}
+.naw .vc_column-inner.vc_custom_1551111717507:after{display:none;}
+.naw .vc_column-inner.vc_custom_1551104364217:after{display:none;}
+.resp-tile-img{height:500px;}
+.ncw #course-page_open-event-cta .flex-2coll h3 a{border:none;}
+.key-policies-procedures .key-policies-procedures_tabs .vc_tta-panel-heading {background-color: #024D7C!important;}
+.key-policies-procedures .key-policies-procedures_tabs .vc_tta-panel-title a{color:#FFFFFF!important;}
+.key-policies-procedures .key-policies-procedures_tabs .vc_tta-panel.vc_active .vc_tta-panel-title > a{color:#024D7c!important;}
+#blue-toggles table{width:100%!important;}
+.apprentice-tabs .wpb_text_column{padding:0!important;}
+#book-consultation-employers .vc_cta3-shape-rounded {padding: 1rem!important;}
+.preparing-for-cov-toggles .vc_column-inner{padding-left:0!important;padding-right:0!important;}
+.aos .vc_column-inner.vc_custom_1554897956983:after {display:none;}
+.vc_column-inner.vc_custom_1554898646377{padding:1rem!important;}
+.vc_column-inner.vc_custom_1554902109354{padding:1rem!important;}
+.email-offer-responder #input_26_1{grid-template-columns:1fr;}
+.email-offer-responder .gform_wrapper{max-width: 100%;}
+.vc_row.wpb_row.vc_row-fluid.hairdressing-copy-container{top:inherit!important;position:inherit!important;}
+#applicant-mag-section{margin-top:15vh;}
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) { 
+
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) { 
+#course-category-boxes{max-width: 80%;margin: auto;}
+#course-category-boxes .vc_col-sm-2{width:33.33%;}
+#coventry-skyline .wpb_wrapper{width:100%;}
+#coventry-skyline .vc_single_image-wrapper{width:100%;}
+.home #course-search-tile .vc_col-sm-6{width:100%;}
+}
+
+/* ----------- iPhone 6+, 7+ and 8+ ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3) { 
+.remove-mobile{display:none!important;}
+#search-by-subject-form .form-group {width: 100%;}
+.no-padding-responsive .vc_column-inner{padding:0!important;}
+#advice-widget{position:initial!important;margin: auto;}
+#advice-widget:after{display:none;}
+.post-type-archive-courses .wpv-filter-form {float: left;width: 100%;}
+.post-type-archive-courses .js-wpv-view-layout {max-width: 100%;float: right;padding: 10% 0% 0% 0%;}
+#course-title h1{font-size:3rem;}
+.courses-template-default .vc_tta-panel-body{background-color:#FFFFFF!important;border:0!important;}
+.wpb-js-composer .vc_tta.vc_general .vc_tta-panel-title > a{font-weight:600;background-color:#f2f2f2;}
+.support .wpb-js-composer .vc_tta.vc_general .vc_tta-panel-title > a{font-weight:600;background-color:#259FB4!important;}
+.college-events .js-wpv-view-layout ul li{width:auto!important;margin-left: 0.5rem;margin-right: 0.5rem;}
+.open-events .js-wpv-view-layout ul li{width:auto!important;margin-left: 0.5rem;margin-right: 0.5rem;}
+#events-container > .wpb_wrapper{display:block!important;width:100%!important;}
+.college-news .js-wpv-view-layout ul li{width:100%!important;}
+#blue-widget {position: initial!important;margin-top: 0!important;left: initial!important;}
+#blue-widget:after {display:none!important;}
+.advice-widget_square{position: initial;margin-top: auto;left: 0;}
+#our-next-event-bar{padding-left:1rem;padding-right:1rem;}
+.ms-slide .ms-slide-bgvideocont{display:none;}
+.contact-header-title{position:initial!important;margin-bottom: 80px;margin-top: -150px;}
+.views-template-template-for-fe-course{background-image:none!important;}
+.views-template-template-for-international-course{background-image:none!important;}
+.views-template-template-for-apprenticeship-course{background-image:none!important;}
+.views-template-template-for-he-course{background-image:none!important;}
+.home .homepage-search-btn{background: #0A4E7A!important;margin-left: 0!important;vertical-align: middle;margin-top: 2rem;color: #FFFFFF;font-size: 1.8rem;width: 100%;font-weight:600;}
+.home .homepage-search-btn:after {display:none;}
+#full-width-flex .vc_row{display: flex;flex-direction: column;justify-content: center;}
+#full-width-flex .vc_row .wpb_column{width:100%;}
+#full-width-flex .vc_row .wpb_column:nth-child(2) {display: none;}
+.vc_custom_1547563406234{background-size:cover!important;}
+.modal-plane{display:none!important;}
+.employing-apprentice .vc_tta-panel-heading {border-color: #04558B!important;}
+#section2-left-tile .vc_custom_1544606931197{padding-top:0!important;padding-bottom:0!important;}
+.key-policies .wpb-js-composer .vc_tta-color-blue.vc_tta-style-flat .vc_tta-panel .vc_tta-panel-body, .wpb-js-composer .vc_tta-color-blue.vc_tta-style-flat .vc_tta-panel.vc_active .vc_tta-panel-heading{border:solid 1px;border-color: #04558B!important;background-color:transparent!important;}
+.single-post .page-heading .heading-text{float:left!important;margin-bottom:4vh;}
+#blue-toggles .vc_tta-panel-body .wpb_wrapper {color: #FFFFFF;max-width: 100%;}
+#blue-toggles iframe{width:100%!important}
+#standard-toggles li {list-style-position: inside;text-indent: -1em;}
+#standard-toggles li::before{margin-right:0;margin-left:-1em;}
+#standard-toggles .one_half{overflow:visible;}
+#blue-cir_support-img-overlay {margin-left: -3rem;}
+.apprenticeships .homepage-search-btn{background: #183950!important;margin-left: auto!important;vertical-align: middle!important;color: #FFF!important;border-radius: 0!important;width: 100%!important;margin-top: 2vh!important;font-size: 1.8rem!important;}
+.apprenticeships .homepage-search-btn::after {display:none;}
+.higher-education .homepage-search-btn{background: #183950!important;margin-left: auto!important;vertical-align: middle!important;color: #FFF!important;border-radius: 0!important;width: 100%!important;margin-top: 2vh!important;font-size: 1.8rem!important;}
+.higher-education .homepage-search-btn::after {display:none;}
+.international .homepage-search-btn{background: #3B780B!important;margin-left: auto!important;vertical-align: middle!important;color: #FFF!important;border-radius: 0!important;width: 100%!important;margin-top: 2vh!important;font-size: 1.8rem!important;}
+.international .homepage-search-btn::after {display:none;}
+.further-education .homepage-search-btn{background:#AB4F1F!important;margin-left: auto!important;vertical-align: middle!important;color: #FFF!important;border-radius: 0!important;width: 100%!important;margin-top: 2vh!important;font-size: 1.8rem!important;}
+.further-education .homepage-search-btn::after {display:none;}
+.study-option{padding:0;display:block;border:0;}
+.course-search-results .vc_column-inner .wpb_wrapper:first-child{padding:0rem 0rem 0rem 0rem;}
+.naw .vc_column-inner.vc_custom_1551111717507:after{display:none;}
+.naw .vc_column-inner.vc_custom_1551104364217:after{display:none;}
+.resp-tile-img{height:500px;}
+.ncw #course-page_open-event-cta .flex-2coll h3 a{border:none;}
+.key-policies-procedures .key-policies-procedures_tabs .vc_tta-panel-heading {background-color: #024D7C!important;}
+.key-policies-procedures .key-policies-procedures_tabs .vc_tta-panel-title a{color:#FFFFFF!important;}
+.key-policies-procedures .key-policies-procedures_tabs .vc_tta-panel.vc_active .vc_tta-panel-title > a{color:#024D7c!important;}
+#blue-toggles table{width:100%!important;}
+.apprentice-tabs .wpb_text_column{padding:0!important;}
+#book-consultation-employers .vc_cta3-shape-rounded {padding: 1rem!important;}
+.preparing-for-cov-toggles .vc_column-inner{padding-left:0!important;padding-right:0!important;}
+.aos .vc_column-inner.vc_custom_1554897956983:after {display:none;}
+.vc_column-inner.vc_custom_1554898646377{padding:1rem!important;}
+.vc_column-inner.vc_custom_1554902109354{padding:1rem!important;}
+.email-offer-responder #input_26_1{grid-template-columns:1fr;}
+.email-offer-responder .gform_wrapper{max-width: 100%;}
+.vc_row.wpb_row.vc_row-fluid.hairdressing-copy-container{top:inherit!important;position:inherit!important;}
+#applicant-mag-section{margin-top:15vh;}
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
+
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: landscape) { 
+#course-category-boxes{max-width: 80%;margin: auto;}
+#course-category-boxes .vc_col-sm-2{width:33.33%;}
+#coventry-skyline .wpb_wrapper{width:100%;}
+#coventry-skyline .vc_single_image-wrapper{width:100%;}
+.home #course-search-tile .vc_col-sm-6{width:100%;}
+}
+
+/* ----------- iPhone X ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3) { 
+.remove-mobile{display:none!important;}
+#search-by-subject-form .form-group {width: 100%;}
+.no-padding-responsive .vc_column-inner{padding:0!important;}
+#advice-widget{position:initial!important;margin: auto;}
+#advice-widget:after{display:none;}
+.post-type-archive-courses .wpv-filter-form {float: left;width: 100%;}
+.post-type-archive-courses .js-wpv-view-layout {max-width: 100%;float: right;padding: 10% 0% 0% 0%;}
+#course-title h1{font-size:3rem;}
+.courses-template-default .vc_tta-panel-body{background-color:#FFFFFF!important;border:0!important;}
+.wpb-js-composer .vc_tta.vc_general .vc_tta-panel-title > a{font-weight:600;background-color:#f2f2f2;}
+.support .wpb-js-composer .vc_tta.vc_general .vc_tta-panel-title > a{font-weight:600;background-color:#259FB4!important;}
+.college-events .js-wpv-view-layout ul li{width:auto!important;margin-left: 0.5rem;margin-right: 0.5rem;}
+.open-events .js-wpv-view-layout ul li{width:auto!important;margin-left: 0.5rem;margin-right: 0.5rem;}
+#events-container > .wpb_wrapper{display:block!important;width:100%!important;}
+.college-news .js-wpv-view-layout ul li{width:100%!important;}
+#blue-widget {position: initial!important;margin-top: 0!important;left: initial!important;}
+#blue-widget:after {display:none!important;}
+.advice-widget_square{position: initial;margin-top: auto;left: 0;}
+#our-next-event-bar{padding-left:1rem;padding-right:1rem;}
+.ms-slide .ms-slide-bgvideocont{display:none;}
+.contact-header-title{position:initial!important;margin-bottom: 80px;margin-top: -150px;}
+.views-template-template-for-fe-course{background-image:none!important;}
+.views-template-template-for-international-course{background-image:none!important;}
+.views-template-template-for-apprenticeship-course{background-image:none!important;}
+.views-template-template-for-he-course{background-image:none!important;}
+.home .homepage-search-btn{background: #0A4E7A!important;margin-left: 0!important;vertical-align: middle;margin-top: 2rem;color: #FFFFFF;font-size: 1.8rem;width: 100%;font-weight:600;}
+.home .homepage-search-btn:after {display:none;}
+#full-width-flex .vc_row{display: flex;flex-direction: column;justify-content: center;}
+#full-width-flex .vc_row .wpb_column{width:100%;}
+#full-width-flex .vc_row .wpb_column:nth-child(2) {display: none;}
+.vc_custom_1547563406234{background-size:cover!important;}
+.modal-plane{display:none!important;}
+.employing-apprentice .vc_tta-panel-heading {border-color: #04558B!important;}
+#section2-left-tile .vc_custom_1544606931197{padding-top:0!important;padding-bottom:0!important;}
+.key-policies .wpb-js-composer .vc_tta-color-blue.vc_tta-style-flat .vc_tta-panel .vc_tta-panel-body, .wpb-js-composer .vc_tta-color-blue.vc_tta-style-flat .vc_tta-panel.vc_active .vc_tta-panel-heading{border:solid 1px;border-color: #04558B!important;background-color:transparent!important;}
+.single-post .page-heading .heading-text{float:left!important;margin-bottom:4vh;}
+#blue-toggles .vc_tta-panel-body .wpb_wrapper {color: #FFFFFF;max-width: 100%;}
+#blue-toggles iframe{width:100%!important}
+#standard-toggles li {list-style-position: inside;text-indent: -1em;}
+#standard-toggles li::before{margin-right:0;margin-left:-1em;}
+#standard-toggles .one_half{overflow:visible;}
+#blue-cir_support-img-overlay {margin-left: -3rem;}
+.apprenticeships .homepage-search-btn{background: #183950!important;margin-left: auto!important;vertical-align: middle!important;color: #FFF!important;border-radius: 0!important;width: 100%!important;margin-top: 2vh!important;font-size: 1.8rem!important;}
+.apprenticeships .homepage-search-btn::after {display:none;}
+.higher-education .homepage-search-btn{background: #183950!important;margin-left: auto!important;vertical-align: middle!important;color: #FFF!important;border-radius: 0!important;width: 100%!important;margin-top: 2vh!important;font-size: 1.8rem!important;}
+.higher-education .homepage-search-btn::after {display:none;}
+.international .homepage-search-btn{background: #3B780B!important;margin-left: auto!important;vertical-align: middle!important;color: #FFF!important;border-radius: 0!important;width: 100%!important;margin-top: 2vh!important;font-size: 1.8rem!important;}
+.international .homepage-search-btn::after {display:none;}
+.further-education .homepage-search-btn{background:#AB4F1F!important;margin-left: auto!important;vertical-align: middle!important;color: #FFF!important;border-radius: 0!important;width: 100%!important;margin-top: 2vh!important;font-size: 1.8rem!important;}
+.further-education .homepage-search-btn::after {display:none;}
+.study-option{padding:0;display:block;border:0;}
+.course-search-results .vc_column-inner .wpb_wrapper:first-child{padding:0rem 0rem 0rem 0rem;}
+.naw .vc_column-inner.vc_custom_1551111717507:after{display:none;}
+.naw .vc_column-inner.vc_custom_1551104364217:after{display:none;}
+.resp-tile-img{height:500px;}
+.ncw #course-page_open-event-cta .flex-2coll h3 a{border:none;}
+.key-policies-procedures .key-policies-procedures_tabs .vc_tta-panel-heading {background-color: #024D7C!important;}
+.key-policies-procedures .key-policies-procedures_tabs .vc_tta-panel-title a{color:#FFFFFF!important;}
+.key-policies-procedures .key-policies-procedures_tabs .vc_tta-panel.vc_active .vc_tta-panel-title > a{color:#024D7c!important;}
+#blue-toggles table{width:100%!important;}
+.apprentice-tabs .wpb_text_column{padding:0!important;}
+#book-consultation-employers .vc_cta3-shape-rounded {padding: 1rem!important;}
+.preparing-for-cov-toggles .vc_column-inner{padding-left:0!important;padding-right:0!important;}
+.aos .vc_column-inner.vc_custom_1554897956983:after {display:none;}
+.vc_column-inner.vc_custom_1554898646377{padding:1rem!important;}
+.vc_column-inner.vc_custom_1554902109354{padding:1rem!important;}
+.email-offer-responder #input_26_1{grid-template-columns:1fr;}
+.email-offer-responder .gform_wrapper{max-width: 100%;}
+.vc_row.wpb_row.vc_row-fluid.hairdressing-copy-container{top:inherit!important;position:inherit!important;}
+#applicant-mag-section{margin-top:15vh;}
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
+
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: landscape) { 
+#course-category-boxes{max-width: 80%;margin: auto;}
+#course-category-boxes .vc_col-sm-2{width:33.33%;}
+#coventry-skyline .wpb_wrapper{width:100%;}
+#coventry-skyline .vc_single_image-wrapper{width:100%;}
+.home #course-search-tile .vc_col-sm-6{width:100%;}
+}
+/* //////////////////////////TABLETS////////////////////////////////// */
+
+/* ----------- iPad 1, 2, Mini and Air ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+.remove-tablet{display:none!important;}
+#course-cat-boxes .vc_col-sm-2{width:50%;padding-left:20px;padding-right:20px;}
+#advice-widget{position:initial!important;margin: auto;}
+#advice-widget:after{display:none;}
+.post-type-archive-courses .wpv-filter-form {width:100%;}
+.post-type-archive-courses .js-wpv-view-layout{max-width:100%!important;padding:2rem;}
+#course-category-boxes h3{font-size:1.2em;}
+#course-search-tile .wpb_column{width:100%;}
+.search-view-all-links{text-align:left;}
+#home-section2{padding:inherit!important;}
+#open-event-bar .vc_column-inner{padding-left:5px!important;}
+.homepage-about-copy{width: 90%;padding: 5%;}
+#search-by-subject-form .form-group{width:auto;}
+.college-events .js-wpv-view-layout ul li{width:auto!important;margin-left: 0.5rem;margin-right: 0.5rem;}
+.open-events .js-wpv-view-layout ul li{width:auto!important;margin-left: 0.5rem;margin-right: 0.5rem;}
+#events-container > .wpb_wrapper{display:block!important;width:100%!important;}
+.college-news .js-wpv-view-layout ul li{width:100%!important;}
+#blue-widget {position: initial!important;margin-top: 0!important;left: initial!important;}
+#blue-widget:after {display:none!important;}
+.advice-widget_square{position: initial;margin-top: auto;left: 0;}
+#full-width-flex .vc_row{display: flex;flex-direction: column;justify-content: center;}
+#full-width-flex .vc_row .wpb_column{width:100%;}
+#full-width-flex .vc_row .wpb_column:nth-child(2) {display: none;}
+.tb-right{width:100%;}
+.views-template-template-for-fe-course{background-image:none!important;}
+.views-template-template-for-international-course{background-image:none!important;}
+.views-template-template-for-apprenticeship-course{background-image:none!important;}
+.views-template-template-for-he-course{background-image:none!important;}
+#financial-funding .vc_col-sm-6{width:90%!important;}
+.employing-apprentice .vc_tta-panel-heading {border-color: #04558B!important;}
+.apprenticeships .homepage-search-btn{background: #183950!important;margin-left: auto!important;vertical-align: middle!important;color: #FFF!important;border-radius: 0!important;width: 100%!important;margin-top: 2vh!important;font-size: 1.8rem!important;}
+.apprenticeships .homepage-search-btn::after {display:none;}
+.naw .vc_column-inner.vc_custom_1551111717507:after{display:none;}
+.naw .vc_column-inner.vc_custom_1551104364217:after{display:none;}
+.resp-tile-img{height:500px;}
+.ncw #course-page_open-event-cta .flex-2coll h3 a{border:none;}
+.key-policies-procedures .key-policies-procedures_tabs .vc_tta-panel-heading {background-color: #024D7C!important;}
+.key-policies-procedures .key-policies-procedures_tabs .vc_tta-panel-title a{color:#FFFFFF!important;}
+.key-policies-procedures .key-policies-procedures_tabs .vc_tta-panel.vc_active .vc_tta-panel-title > a{color:#024D7c!important;}
+#blue-toggles table{width:100%!important;}
+#professional-short-courses-row{display: -ms-grid;display: grid;}
+.professional-course-block{width:100%;}
+#professional-short-courses-row.vc_row::before{display:block;}
+#aos-cat-boxes-container .vc_row wpb_row{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient: vertical;-webkit-box-direction: normal;-ms-flex-direction: column;flex-direction: column;}
+.aos-cat-rugby{width:100%;}
+.aos-cat-football{width:100%;}
+.aos-cat-basketball{width:100%;}
+.vc_row.wpb_row.vc_row-fluid.hairdressing-copy-container{top:inherit!important;position:inherit!important;}
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (orientation: portrait) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+#course-category-boxes .wpb_column{width: 30%;margin: auto;margin-bottom:20px;}
+#course-category-boxes{margin: auto;width: 80%;}
+.single-courses .article-body-wrap .vc_col-sm-8{width:55%!important;}
+.single-courses .article-body-wrap .vc_col-sm-4{width:45%!important;}
+.single-courses .article-body-wrap #course-part-of-box{display:none;}
+.single-courses .article-body-wrap #apply-now-box{width:100%!important;}
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (orientation: landscape) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+#course-category-boxes .wpb_column {width: 30%;margin: auto;margin-bottom: 20px;}
+#course-category-boxes {margin: auto;width: 60%;}
+}
+
+/* ----------- iPad 3, 4 and Pro 9.7" ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+.remove-tablet{display:none!important;}
+#course-cat-boxes .vc_col-sm-2{width:50%;padding-left:20px;padding-right:20px;}
+#advice-widget{position:initial!important;margin: auto;}
+#advice-widget:after{display:none;}
+.post-type-archive-courses .wpv-filter-form {width: 100%;}
+.post-type-archive-courses .js-wpv-view-layout{max-width:100%!important;padding:2rem;}
+#course-category-boxes h3{font-size:1.2em;}
+#course-search-tile .wpb_column{width:100%;}
+.search-view-all-links{text-align:left;}
+#home-section2{padding:inherit!important;}
+#open-event-bar .vc_column-inner{padding-left:5px!important;}
+.homepage-about-copy{width: 90%;padding: 5%;}
+#search-by-subject-form .form-group{width:auto;}
+.college-events .js-wpv-view-layout ul li{width:auto!important;margin-left: 0.5rem;margin-right: 0.5rem;}
+.open-events .js-wpv-view-layout ul li{width:auto!important;margin-left: 0.5rem;margin-right: 0.5rem;}
+#events-container > .wpb_wrapper{display:block!important;width:100%!important;}
+.college-news .js-wpv-view-layout ul li{width:100%!important;}
+#blue-widget {position: initial!important;margin-top: 0!important;left: initial!important;}
+#blue-widget:after {display:none!important;}
+.advice-widget_square{position: initial;margin-top: auto;left: 0;}
+#full-width-flex .vc_row{display: flex;flex-direction: column;justify-content: center;}
+#full-width-flex .vc_row .wpb_column{width:100%;}
+#full-width-flex .vc_row .wpb_column:nth-child(2) {display: none;}
+.single-courses .article-body-wrap .vc_col-sm-8{width:60%!important;}
+.single-courses .article-body-wrap .vc_col-sm-4{width:40%!important;}
+.tb-right{width:100%;}
+.views-template-template-for-fe-course{background-image:none!important;}
+.views-template-template-for-international-course{background-image:none!important;}
+.views-template-template-for-apprenticeship-course{background-image:none!important;}
+.views-template-template-for-he-course{background-image:none!important;}
+#financial-funding .vc_col-sm-6{width:90%!important;}
+.employing-apprentice .vc_tta-panel-heading {border-color: #04558B!important;}
+.apprenticeships .homepage-search-btn{background: #183950!important;margin-left: auto!important;vertical-align: middle!important;color: #FFF!important;border-radius: 0!important;width: 100%!important;margin-top: 2vh!important;font-size: 1.8rem!important;}
+.apprenticeships .homepage-search-btn::after {display:none;}
+.naw .vc_column-inner.vc_custom_1551111717507:after{display:none;}
+.naw .vc_column-inner.vc_custom_1551104364217:after{display:none;}
+.resp-tile-img{height:500px;}
+.ncw #course-page_open-event-cta .flex-2coll h3 a{border:none;}
+.key-policies-procedures .key-policies-procedures_tabs .vc_tta-panel-heading {background-color: #024D7C!important;}
+.key-policies-procedures .key-policies-procedures_tabs .vc_tta-panel-title a{color:#FFFFFF!important;}
+.key-policies-procedures .key-policies-procedures_tabs .vc_tta-panel.vc_active .vc_tta-panel-title > a{color:#024D7c!important;}
+#blue-toggles table{width:100%!important;}
+#professional-short-courses-row{display: -ms-grid;display: grid;}
+.professional-course-block{width:100%;}
+#professional-short-courses-row.vc_row::before{display:block;}
+#aos-cat-boxes-container .vc_row wpb_row{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient: vertical;-webkit-box-direction: normal;-ms-flex-direction: column;flex-direction: column;}
+.aos-cat-rugby{width:100%;}
+.aos-cat-football{width:100%;}
+.aos-cat-basketball{width:100%;}
+.vc_row.wpb_row.vc_row-fluid.hairdressing-copy-container{top:inherit!important;position:inherit!important;}
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (orientation: portrait) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+#course-category-boxes .wpb_column{width: 30%;margin: auto;margin-bottom:20px;}
+#course-category-boxes{margin: auto;width: 80%;}
+.single-courses .article-body-wrap #course-part-of-box{display:none;}
+.single-courses .article-body-wrap #apply-now-box{width:100%!important;}
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (orientation: landscape) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+#course-category-boxes .wpb_column {width: 30%;margin: auto;margin-bottom: 20px;}
+#course-category-boxes {margin: auto;width: 60%;}
+}
+
+/* ----------- iPad Pro 10.5" ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 834px) 
+  and (max-device-width: 1112px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+.remove-tablet{display:none!important;}
+#course-cat-boxes .vc_col-sm-2{width:50%;padding-left:20px;padding-right:20px;}
+#advice-widget{position:initial!important;margin: auto;}
+#advice-widget:after{display:none;}
+.post-type-archive-courses .wpv-filter-form {width: 100%;}
+.post-type-archive-courses .js-wpv-view-layout{max-width:100%!important;padding:2rem;}
+#course-category-boxes h3{font-size:1.2em;}
+#course-search-tile .wpb_column{width:100%;}
+.search-view-all-links{text-align:left;}
+#home-section2{padding:inherit!important;}
+#open-event-bar .vc_column-inner{padding-left:5px!important;}
+.homepage-about-copy{width: 90%;padding: 5%;}
+#search-by-subject-form .form-group{width:auto;}
+.college-events .js-wpv-view-layout ul li{width:auto!important;margin-left: 0.5rem;margin-right: 0.5rem;}
+.open-events .js-wpv-view-layout ul li{width:auto!important;margin-left: 0.5rem;margin-right: 0.5rem;}
+#events-container > .wpb_wrapper{display:block!important;width:100%!important;}
+.college-news .js-wpv-view-layout ul li{width:100%!important;}
+#blue-widget {position: initial!important;margin-top: 0!important;left: initial!important;}
+#blue-widget:after {display:none!important;}
+.advice-widget_square{position: initial;margin-top: auto;left: 0;}
+#full-width-flex .vc_row{display: flex;flex-direction: column;justify-content: center;}
+#full-width-flex .vc_row .wpb_column{width:100%;}
+#full-width-flex .vc_row .wpb_column:nth-child(2) {display: none;}
+.single-courses .article-body-wrap .vc_col-sm-8{width:60%!important;}
+.single-courses .article-body-wrap .vc_col-sm-4{width:40%!important;}
+.tb-right{width:100%;}
+.views-template-template-for-fe-course{background-image:none!important;}
+.views-template-template-for-international-course{background-image:none!important;}
+.views-template-template-for-apprenticeship-course{background-image:none!important;}
+.views-template-template-for-he-course{background-image:none!important;}
+#financial-funding .vc_col-sm-6{width:90%!important;}
+.employing-apprentice .vc_tta-panel-heading {border-color: #04558B!important;}
+.apprenticeships .homepage-search-btn{background: #183950!important;margin-left: auto!important;vertical-align: middle!important;color: #FFF!important;border-radius: 0!important;width: 100%!important;margin-top: 2vh!important;font-size: 1.8rem!important;}
+.apprenticeships .homepage-search-btn::after {display:none;}
+.naw .vc_column-inner.vc_custom_1551111717507:after{display:none;}
+.naw .vc_column-inner.vc_custom_1551104364217:after{display:none;}
+.resp-tile-img{height:500px;}
+.ncw #course-page_open-event-cta .flex-2coll h3 a{border:none;}
+.key-policies-procedures .key-policies-procedures_tabs .vc_tta-panel-heading {background-color: #024D7C!important;}
+.key-policies-procedures .key-policies-procedures_tabs .vc_tta-panel-title a{color:#FFFFFF!important;}
+.key-policies-procedures .key-policies-procedures_tabs .vc_tta-panel.vc_active .vc_tta-panel-title > a{color:#024D7c!important;}
+#blue-toggles table{width:100%!important;}
+#professional-short-courses-row{display: -ms-grid;display: grid;}
+.professional-course-block{width:100%;}
+#professional-short-courses-row.vc_row::before{display:block;}
+#aos-cat-boxes-container .vc_row wpb_row{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient: vertical;-webkit-box-direction: normal;-ms-flex-direction: column;flex-direction: column;}
+.aos-cat-rugby{width:100%;}
+.aos-cat-football{width:100%;}
+.aos-cat-basketball{width:100%;}
+.vc_row.wpb_row.vc_row-fluid.hairdressing-copy-container{top:inherit!important;position:inherit!important;}
+}
+
+/* Portrait */
+/* Declare the same value for min- and max-width to avoid colliding with desktops */
+@media only screen 
+  and (min-device-width: 834px) 
+  and (max-device-width: 834px) 
+  and (orientation: portrait) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+#course-category-boxes .wpb_column{width: 30%;margin: auto;margin-bottom:20px;}
+#course-category-boxes{margin: auto;width: 80%;}
+.single-courses .article-body-wrap #course-part-of-box{display:none;}
+.single-courses .article-body-wrap #apply-now-box{width:100%!important;}
+}
+
+/* Landscape */
+/* Declare the same value for min- and max-width to avoid colliding with desktops */
+@media only screen 
+  and (min-device-width: 1112px) 
+  and (max-device-width: 1112px) 
+  and (orientation: landscape) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+#course-category-boxes .wpb_column {width: 30%;margin: auto;margin-bottom: 20px;}
+#course-category-boxes {margin: auto;width: 60%;}
+}
+
+/* ----------- iPad Pro 12.9" ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 1024px) 
+  and (max-device-width: 1366px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+.remove-tablet{display:none!important;}
+#course-cat-boxes .vc_col-sm-2{width:50%;padding-left:20px;padding-right:20px;}
+#advice-widget{position:initial!important;margin: auto;}
+#advice-widget:after{display:none;}
+.post-type-archive-courses .wpv-filter-form {width: 100%;}
+.post-type-archive-courses .js-wpv-view-layout{max-width:100%!important;padding:2rem;}
+#course-category-boxes h3{font-size:1.2em;}
+#course-search-tile .wpb_column{width:100%;}
+.search-view-all-links{text-align:left;}
+#home-section2{padding:inherit!important;}
+#open-event-bar .vc_column-inner{padding-left:5px!important;}
+.homepage-about-copy{width: 90%;padding: 5%;}
+#search-by-subject-form .form-group{width:auto;}
+.college-events .js-wpv-view-layout ul li{width:auto!important;margin-left: 0.5rem;margin-right: 0.5rem;}
+.open-events .js-wpv-view-layout ul li{width:auto!important;margin-left: 0.5rem;margin-right: 0.5rem;}
+#events-container > .wpb_wrapper{display:block!important;width:100%!important;}
+.college-news .js-wpv-view-layout ul li{width:100%!important;}
+#blue-widget {position: initial!important;margin-top: 0!important;left: initial!important;}
+#blue-widget:after {display:none!important;}
+.advice-widget_square{position: initial;margin-top: auto;left: 0;}
+#full-width-flex .vc_row{display: flex;flex-direction: column;justify-content: center;}
+#full-width-flex .vc_row .wpb_column{width:100%;}
+#full-width-flex .vc_row .wpb_column:nth-child(2) {display: none;}
+.single-courses .article-body-wrap .vc_col-sm-8{width:60%!important;}
+.single-courses .article-body-wrap .vc_col-sm-4{width:40%!important;}
+.tb-right{width:100%;}
+.views-template-template-for-fe-course{background-image:none!important;}
+.views-template-template-for-international-course{background-image:none!important;}
+.views-template-template-for-apprenticeship-course{background-image:none!important;}
+.views-template-template-for-he-course{background-image:none!important;}
+#financial-funding .vc_col-sm-6{width:90%!important;}
+.employing-apprentice .vc_tta-panel-heading {border-color: #04558B!important;}
+.apprenticeships .homepage-search-btn{background: #183950!important;margin-left: auto!important;vertical-align: middle!important;color: #FFF!important;border-radius: 0!important;width: 100%!important;margin-top: 2vh!important;font-size: 1.8rem!important;}
+.apprenticeships .homepage-search-btn::after {display:none;}
+.naw .vc_column-inner.vc_custom_1551111717507:after{display:none;}
+.naw .vc_column-inner.vc_custom_1551104364217:after{display:none;}
+.resp-tile-img{height:500px;}
+.ncw #course-page_open-event-cta .flex-2coll h3 a{border:none;}
+.key-policies-procedures .key-policies-procedures_tabs .vc_tta-panel-heading {background-color: #024D7C!important;}
+.key-policies-procedures .key-policies-procedures_tabs .vc_tta-panel-title a{color:#FFFFFF!important;}
+.key-policies-procedures .key-policies-procedures_tabs .vc_tta-panel.vc_active .vc_tta-panel-title > a{color:#024D7c!important;}
+#blue-toggles table{width:100%!important;}
+#professional-short-courses-row{display: -ms-grid;display: grid;}
+.professional-course-block{width:100%;}
+#professional-short-courses-row.vc_row::before{display:block;}
+#aos-cat-boxes-container .vc_row wpb_row{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient: vertical;-webkit-box-direction: normal;-ms-flex-direction: column;flex-direction: column;}
+.aos-cat-rugby{width:100%;}
+.aos-cat-football{width:100%;}
+.aos-cat-basketball{width:100%;}
+.vc_row.wpb_row.vc_row-fluid.hairdressing-copy-container{top:inherit!important;position:inherit!important;}
+}
+
+/* Portrait */
+/* Declare the same value for min- and max-width to avoid colliding with desktops */
+@media only screen 
+  and (min-device-width: 1024px) 
+  and (max-device-width: 1024px) 
+  and (orientation: portrait) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+#course-category-boxes .wpb_column{width: 30%;margin: auto;margin-bottom:20px;}
+#course-category-boxes{margin: auto;width: 80%;}
+.single-courses .article-body-wrap #course-part-of-box{display:none;}
+.single-courses .article-body-wrap #apply-now-box{width:100%!important;}
+}
+
+/* Landscape */
+/* Declare the same value for min- and max-width to avoid colliding with desktops */
+@media only screen 
+  and (min-device-width: 1366px) 
+  and (max-device-width: 1366px) 
+  and (orientation: landscape) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+#course-category-boxes .wpb_column {width: 30%;margin: auto;margin-bottom: 20px;}
+#course-category-boxes {margin: auto;width: 60%;}
+}
+/*DATA COLLECTION*/
+.tablet-data-collection .gform_body{text-align:center;}
+.tablet-data-collection .gform_button{margin:auto;width:100%;font-size:1.3em!important;}
+.tablet-data-collection .gform_footer{text-align:center;}
+.tablet-data-collection .gform_wrapper input:not([type=radio]):not([type=checkbox]):not([type=submit]):not([type=button]):not([type=image]):not([type=file]) {font-family: inherit;padding: 12px 10px;letter-spacing: normal;font-size: 1.1em!important;}
+@media only screen and (min-width: 641px){
+.tablet-data-collection .gform_wrapper .top_label input.medium, .gform_wrapper .top_label select.medium {
+width: calc(70% - 8px);
+}}
