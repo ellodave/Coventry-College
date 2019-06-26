@@ -1,0 +1,7 @@
+<h2 style="text-align: center;">College open event</h2>
+<h3 style="text-align: center;">{!{wpv-view name='display-next-open-event-course-page'}!}</h3>
+
+<hr />
+<p style="text-align: center;">Our open events are a great opportunity for you and your parents/guardians to see our amazing facilities,
+and chat to staff and students about particular courses and college life in general.</p>
+<p style="text-align: center;">[sf_button colour="white" type="stroke-to-fill" size="standard" link="https://openevents.coventrycollege.ac.uk" target="_blank" icon="" dropshadow="no" extraclass=""]REGISTER NOW[/sf_button]</p>
