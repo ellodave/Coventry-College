@@ -1,1 +1,1 @@
-<a href="/open-events/register/"><span class="our-next-open-event-title">OUR NEXT OPEN EVENT {!{wpv-view name='display-next-open-event-homepage'}!}</span></a>
+<a href="/open-events/register/"><span class="our-next-open-event-title">OUR NEXT OPEN EVENT {!{wpv-view name='display-next-open-event-course-page'}!}</span></a>
