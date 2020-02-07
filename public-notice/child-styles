@@ -1,2 +1,2 @@
 .site-public-notice{padding: 1rem;background-color:red;color:white;text-align: center;}
-.site-public-notice .public-notice{content: "\f071";font-family: FontAwesome;font-size: 1.3em;margin-right: 1rem;}
+.site-public-notice .public-notice:before{content: "\f071";font-family: FontAwesome;font-size: 1.3em;margin-right: 1rem;}
