@@ -1,0 +1,7 @@
+/* ROOM HIRE */
+.room-hire .page-heading {background-color: #f7f7f7;border-bottom-color: #e4e4e4;background-image: url(/wp-content/uploads/2019/02/room-hire-2.jpg);height: 400px;background-size: cover;background-position:right;}
+.room-hire .page-heading .container{display: flex;align-items: flex-end;justify-content: left;height: 100%;}
+.room-hire .page-heading .heading-text {background-color: #0A4E7A;padding: 5px;}
+.room-hire .page-heading .heading-text h1 {color:#FFFFFF;}
+.room-hire #breadcrumbs{display:none;}
+.room-hire #hire-room-form-container .gform_body{background-color: #FFFFFF;padding: 3rem 5rem;border: solid 2px;border-color: #e3e1e1;}
