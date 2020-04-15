@@ -1,0 +1,10 @@
+/* SUBJECT LANDING TYPE TOOLTIP */
+.subject-landing-filter-dropdown__dropbtn {background-color:transparent;color: white;padding:0;font-size: 16px;border: none;vertical-align: middle;}
+.subject-landing-filter-dropdown {position: relative;display: inline-block;}
+.subject-landing-filter-dropdown__dropdown-content {display: none;position: absolute;background-color: #3e3e3e;width:auto;box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);z-index: 1;color:white;padding:2rem;}
+.subject-landing-filter-dropdown__dropdown-content h4{color:white;font-size:1.3em;}
+.subject-landing-filter-dropdown__dropdown-content a {color: black;padding: 12px 16px;text-decoration: none;display: block;}
+.subject-landing-filter-dropdown__dropdown-content a:hover {background-color:transparent;color:#222222;}
+.subject-landing-filter-dropdown:hover .subject-landing-filter-dropdown__dropdown-content {display: block;}
+.subject-landing-filter-dropdown:hover .subject-landing-filter-dropdown__dropbtn {background-color:transparent;}
+.subject-landing-filter-tile{font-size: 1.8em;color: #07466f;margin: 5rem 0 3rem 0;}
