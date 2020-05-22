@@ -1,7 +1,7 @@
-<h2 style="text-align: center;">College open event</h2>
-<h3 style="text-align: center;">{!{wpv-view name='display-next-open-event-course-page'}!}</h3>
+<h2 class="text-center">College open event</h2>
+<h3 class="text-center">{!{wpv-view name='display-next-open-event-course-page'}!}</h3>
 
 <hr />
-<p style="text-align: center;">Our Open Events are a chance for you to come and see what Coventry College is all about!
+<p class="text-center">Our Open Events are a chance for you to come and see what Coventry College is all about!
 You’ll have the opportunity to talk to course tutors, have a go at some taster activities and explore our fantastic facilities.</p>
-<p style="text-align: center;">[sf_button colour="white" type="stroke-to-fill" size="standard" link="/open-events/register/" target="_blank" icon="" dropshadow="no" extraclass=""]REGISTER NOW[/sf_button]</p>
+<p class="text-center">[sf_button colour="white" type="stroke-to-fill" size="standard" link="/open-events/register/" target="_blank" icon="" dropshadow="no" extraclass=""]REGISTER NOW[/sf_button]</p>
