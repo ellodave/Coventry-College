@@ -1,0 +1,50 @@
+
+Template for Access to HE
+
+<h2 class="ready-to-apply">Ready to apply?</h2>
+<a class="link-to-apply" href="{!{types field='link-to-apply' output='raw'}!}{!{/types}!}">Apply now</a>
+
+---------
+
+Apprenticeships:
+
+EMAIL MODAL
+
+--------
+
+FE:
+Template for FE Course (Entry Level + Level 1)
+Template for FE Course (Pre-Entry Level)
+Template for HE Course
+
+<h2 class="ready-to-apply">Ready to apply?</h2>
+<a class="link-to-apply" href="{!{types field='link-to-apply' output='raw'}!}{!{/types}!}">Apply now</a>
+
+---------
+
+Template for HE Course - Prosol + UCAS
+
+<h2 class="ready-to-apply">Ready to apply?</h2>
+<a class="link-to-apply" href="{!{types field='link-to-apply' output='raw'}!}{!{/types}!}" rel="noopener">Apply now</a>
+<a class="apply-via-ucas" href="{!{types field='link-to-ucas-course-page' output='raw'}!}{!{/types}!}" target="_blank" rel="noopener">Apply via UCAS*</a>
+<div class="ucas-fee-info">*Applying via the College means you won't be charged the UCAS fee (normally £20-£25).</div>
+
+-----------
+
+Template for Professional course (EMAIL)
+
+EMAIL
+
+------------
+
+Template for Professional course (PROSOL)
+
+<h2 class="ready-to-apply">Ready to apply?</h2>
+<a class="link-to-apply" href="{!{types field='link-to-apply' output='raw'}!}{!{/types}!}">Apply now</a>
+
+-------------
+
+DISTANCE LEARNING
+
+<h2 class="ready-to-apply">Ready to apply?</h2>
+<a href="{!{types field='link-to-apply' output='raw'}!}{!{/types}!}">Apply now</a>
