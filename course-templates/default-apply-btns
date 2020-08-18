@@ -44,7 +44,14 @@ Template for Professional course (PROSOL)
 
 -------------
 
-DISTANCE LEARNING
+Template for Distance Learning course
 
 <h2 class="ready-to-apply">Ready to apply?</h2>
-<a href="{!{types field='link-to-apply' output='raw'}!}{!{/types}!}">Apply now</a>
+<a class="link-to-apply" href="{!{types field='link-to-apply' output='raw'}!}{!{/types}!}">Apply now</a>
+
+-------------
+
+Template for Part-time course
+
+<h2 class="ready-to-apply">Ready to apply?</h2>
+<a class="link-to-apply" href="{!{types field='link-to-apply' output='raw'}!}{!{/types}!}">Apply now</a>
