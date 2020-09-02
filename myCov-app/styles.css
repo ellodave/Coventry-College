@@ -1,0 +1,3 @@
+.tile__wrapper .tile__header{display: flex;flex-direction: column-reverse;align-items: flex-start;padding:10px;}
+.tile__wrapper .tile__header i{font-size:25px;}
+.tile__wrapper .tile__header h2{margin-top:5px;font-weight: 600;font-size: 1.1em;}
