@@ -1,0 +1,20 @@
+.cov-contrast__dark--red{
+	background-color:#C83400!important;
+}
+.cov-contrast__dark--blue{
+	background-color:#0201FF !important;
+}
+.cov-contrast__dark--green{
+	background-color:#005B0E !important;
+}
+
+
+.cov-contrast__font--white{
+	color:white!important;
+}
+.cov-contrast__font--blue {
+	color:#0100FF!important;
+}
+.cov-contrast__font--red{
+	color:red!important;
+}
