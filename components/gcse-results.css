@@ -1,0 +1,14 @@
+/* GCSE RESULTS */
+.gcse-results .page-heading {background-color: #f7f7f7;border-bottom-color: #e4e4e4;background-image: url(/wp-content/uploads/2019/08/gcse-results-header.jpg);height: 400px;background-size: cover;background-position:center;border-bottom:none;}
+.gcse-results .page-heading .container{display:none;}
+.gcse-results .page-heading .heading-text {background-color: #0A4E7A;padding: 5px;}
+.gcse-results .page-heading .heading-text h1 {color:#FFFFFF;}
+.gcse-compare-table tbody td{border-top: 2px solid #177ea2 !important}
+.gcse-compare-table .row-2.even .column-2 {border-bottom: solid 1px #b7dbe7;}
+.gcse-compare-table .column-1{background-color: #f2f2f2!important;color:#3a5963;font-size: 1.1em;text-align:center;vertical-align:bottom;}
+.gcse-compare-table .column-2{background-color: #b7dbe7!important;color:#3a5963;font-size: 1.1em;text-align:center;}
+.gcse-compare-table .row-1{border-bottom: solid 3px #FFFFFF;}
+.gcse-compare-table .row-3{border-bottom: solid 3px #b9b9b9;}
+.gcse-compare-table .row-5{border-bottom: solid 2px #00a5c3;}
+.gcse-compare-table .row-10{border-bottom: solid 2px #FFFFFF;}
+.gcse-compare-table .row-7{border-bottom: dotted 2px #f2f2f2;}
