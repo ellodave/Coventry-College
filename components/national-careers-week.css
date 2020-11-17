@@ -1,0 +1,27 @@
+/* NATIONAL CAREER WEEK PAGE */
+.ncw .page-heading {background-color: #f7f7f7;border-bottom-color: #e4e4e4;background-image: url(/wp-content/uploads/2018/09/computing_course-header.jpg);height: 400px;background-size: cover;background-position:center;border-bottom:none;}
+.ncw .page-heading .container{display: -webkit-box;display: -ms-flexbox;display: flex;align-items: flex-end;justify-content: left;height: 100%;}
+.ncw .page-heading .heading-text {background-color: var(--color-primary-blue);padding: 5px;}
+.ncw .page-heading .heading-text h1 {color:#FFFFFF;}
+.ncw #breadcrumbs{display:none;}
+#ncw-top-sec{overflow:visible;}
+#ncw-widget{background-color: #E93F6C;color: #FFFFFF;padding: 20px;position:relative;margin-top:90px;left:50px;}
+#ncw-widget h2{color: #FFFFFF;margin:0;padding-bottom:0.3em;font-size: 1.6em;line-height:1.4;}
+#ncw-widget h3{color: #FFFFFF;}
+#ncw-widget:after{right: 0;bottom: -5rem;content: "";width: 0;height: 0;border-top: 50px solid var(--color-primary-pink);border-left: 50px solid transparent;position: absolute;}
+.ncw .vc_column-inner.vc_custom_1551196741265:after {background-image: url(/wp-content/uploads/2019/02/Asset-1cov-green-lines-e1539873171316.png);height: 200px;width: 100%;background-repeat: no-repeat;position: absolute;z-index: -1;margin-left: -120px;bottom: -100px;}
+#share-story-tile .sf-button{background: transparent!important;border: solid 2px!important;border-color: #FFFFFF!important;color: #FFFFFF!important;padding: 1.5rem 5rem 1.5rem 5rem!important;font-size: 1.5rem!important;}
+.ncw .flex-2coll .wpb_wrapper{flex-direction: row;display: -webkit-box;display: -ms-flexbox;display: flex;}
+.ncw .flex-2coll .wpb_wrapper p{flex-direction: row;display: -webkit-box;display: -ms-flexbox;display: flex;}
+.ncw .flex-2coll.center p{margin:auto;}
+.ncw .flex-2coll .wpb_wrapper .sf-button{max-height:50px;}
+.ncw .flex-2coll.center .wpb_wrapper p .sf-button{padding: 1.5rem 5rem 1.5rem!important;background-color:transparent!important;color: #FFFFFF!important;font-size: 1.5rem!important;border: solid 2px!important;border-color:#FFFFFF!important;max-height:50px;}
+.ncw #naw-widget .vc_btn3{padding: 1.5rem 5rem 1.5rem!important;background-color: #084E7C!important;color: #FFFFFF!important;font-size: 1.5rem!important;border: none!important;}
+.ncw .flex-2coll.center .wpb_wrapper p .sf-button .text{color:#FFFFFF!important;}
+.ncw .contact-development-team .sf-button{color: #084E7C!important;background-color: transparent;border: solid 2px;border-radius: 0;border-color: #084E7C;font-weight: 400!important;font-size: 1.5rem;}
+.ncw .mag-download-sec .sf-button{background: transparent!important;border: solid 2px!important;border-color: #1AA5C4!important;color: #1AA5C4!important;padding: 1.5rem 5rem 1.5rem 5rem!important;font-size: 1.5rem!important;}
+.ncw-blue-cir{position: absolute;top: -50px;left: -1000px;}
+.ncw-green-cir{position: absolute;top: 80px;left: -1000px;}
+.ncw-red-cir{position: absolute;top: -50px;left: -80px;opacity: 0.1;z-index: 0;}
+.ncw #course-page_open-event-cta .flex-2coll {flex-direction: row;display:-webkit-box;display:-ms-flexbox;display:flex;max-width: 600px;margin: auto;}
+.ncw #course-page_open-event-cta .flex-2coll h3{margin:auto;}
