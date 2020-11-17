@@ -1,0 +1,8 @@
+/* HAIRDRESSING LANDING PAGE */
+.vc_row.wpb_row.vc_row-fluid.hairdressing-copy-container{background-color:transparent!important;top: -20vh;position: relative;z-index: 1000;}
+.hairdressing-copy-container .vc_column-inner{padding: 3rem;color:#6e6c6c;background-color:transparent!important;}
+.hairdressing-copy-container .vc_column-inner p{line-height:1.9;}
+.hairdressing-copy-container h2{font-size:1em;color:#6e6c6c;margin:1rem 0;font-weight:400;}
+#hairdressing-copy-container_left{border-right: dotted 1px;border-color: #c0c0c0;}
+.hairdressing-copy-container .sf-button.accent{color: #fff;background-color: transparent;letter-spacing: 1px;border: solid 1px !important;border-color: #d71a5c !important;color: #d71a5c !important;font-size: 1.5rem;font-weight: 400 !important;}
+.hairdressing-copy-container .sf-button.accent:hover{background-color:#d71a5c!important;color:#FFFFFF!important;}
