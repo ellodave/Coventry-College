@@ -1,0 +1,6 @@
+/* FIND AN AGENT */
+.find-an-agent .page-heading {background-color: #f7f7f7;border-bottom-color: #e4e4e4;background-image: url(/wp-content/uploads/2019/01/International-banner-background.jpg);height: 400px;background-size: cover;background-position:right;}
+.find-an-agent .page-heading .container{display: flex;align-items: flex-end;justify-content: left;height: 100%;}
+.find-an-agent .page-heading .heading-text {background-color: #0A4E7A;padding: 5px;}
+.find-an-agent .page-heading .heading-text h1 {color:#FFFFFF;}
+.find-an-agent #breadcrumbs{display:none;}
