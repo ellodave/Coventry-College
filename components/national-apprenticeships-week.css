@@ -1,0 +1,23 @@
+/* NATIONAL APPRENTICESHIP WEEK PAGE */
+.naw .page-heading {background-color: #f7f7f7;border-bottom-color: #e4e4e4;background-image: url(/wp-content/uploads/2018/09/computing_course-header.jpg);height: 400px;background-size: cover;background-position:center;border-bottom:none;}
+.naw .page-heading .container{display: -webkit-box;display: -ms-flexbox;display: flex;align-items: flex-end;justify-content: left;height: 100%;}
+.naw .page-heading .heading-text {background-color: var(--color-primary-blue);padding: 5px;}
+.naw .page-heading .heading-text h1 {color:#FFFFFF;}
+.naw #breadcrumbs{display:none;}
+#naw-top-sec{overflow:visible;}
+#naw-widget{background-color: #F9E3EF;color: var(--color-primary-blue);padding: 20px;position:relative;margin-top:90px;left:50px;}
+#naw-widget h2{color: var(--color-primary-blue);margin:0;padding-bottom:0.3em;font-size: 1.6em;line-height:1.4;}
+#naw-widget h3{color: #FFFFFF;}
+#naw-widget:after{right: 0;bottom: -5rem;content: "";width: 0;height: 0;border-top: 50px solid #F9E3EF;border-left: 50px solid transparent;position: absolute;}
+.naw .vc_column-inner.vc_custom_1551104364217:after {background-image: url(/wp-content/uploads/2019/02/Asset-1cov-pink-lines-e1539873171316.png);height: 200px;width: 100%;background-repeat: no-repeat;position: absolute;z-index: -1;margin-left: -150px;bottom: -150px;}
+.naw .vc_column-inner.vc_custom_1551111717507:after {background-image: url(/wp-content/uploads/2019/02/Asset-1cov-asset-app.png);content: '';height: 100%;z-index: 0;width: 40%;background-size: contain;top: -150px;position: absolute;opacity: 0.3;transform: rotate(60deg);background-repeat: no-repeat;left:-120px;}
+#share-story-tile .sf-button{background: transparent!important;border: solid 2px!important;border-color: #FFFFFF!important;color: #FFFFFF!important;padding: 1.5rem 5rem 1.5rem 5rem!important;font-size: 1.5rem!important;}
+.naw .flex-2coll .wpb_wrapper{flex-direction: row;display: -webkit-box;display: -ms-flexbox;display: flex;}
+.naw .flex-2coll .wpb_wrapper p{flex-direction: row;display: -webkit-box;display: -ms-flexbox;display: flex;}
+.naw .flex-2coll.center p{margin:auto;}
+.naw .flex-2coll .wpb_wrapper .sf-button{max-height:50px;}
+.naw .flex-2coll.center .wpb_wrapper p .sf-button{padding: 1.5rem 5rem 1.5rem!important;background-color:transparent!important;color: #FFFFFF!important;font-size: 1.5rem!important;border: solid 2px!important;border-color:#FFFFFF!important;max-height:50px;}
+.naw #naw-widget .vc_btn3{padding: 1.5rem 5rem 1.5rem!important;background-color: var(--color-primary-blue)!important;color: #FFFFFF!important;font-size: 1.5rem!important;border: none!important;}
+.naw .flex-2coll.center .wpb_wrapper p .sf-button .text{color:#FFFFFF!important;}
+.naw .contact-development-team .sf-button{color: var(--color-primary-blue)!important;background-color: transparent;border: solid 2px;border-radius: 0;border-color: var(--color-primary-blue);font-weight: 400!important;font-size: 1.5rem;}
+.naw .contact-development-team .sf-button:hover{background-color:#e1cdd8!important;}
