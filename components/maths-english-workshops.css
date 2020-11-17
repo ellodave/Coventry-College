@@ -1,0 +1,6 @@
+/* MATHS AND ENGLISH WORKSHOPS */
+.maths-english-workshops .page-heading{background-color: var(--color-primary-blue);}
+.maths-english-workshops .page-heading h1{color:#FFFFFF!important;}
+.maths-english-workshops #breadcrumbs{display:none;}
+.maths-english-workshops #main-container{background-color:transparent!important;}
+.maths-english-workshops #main-container .vc_column-inner{background-color:#FFFFFF!important}
