@@ -1,0 +1,27 @@
+/*INTERNATIONAL SEARCH RESULTS*/
+.international-searchresults .page-heading{background-image: url(/wp-content/uploads/2019/01/International-banner-background.jpg);background-size: cover;height: 300px;background-position: center;display:flex;}
+.international-searchresults .page-heading .container{align-self: flex-end;display: flex;}
+.international-searchresults .page-heading .heading-text{background-color:#0A4E7A;padding:10px;}
+.international-searchresults .page-heading .heading-text h1{color:#FFFFFF;}
+.international-searchresults .entry-title{color:#FFFFFF!important;}
+.international-searchresults #breadcrumbs{display:none;}
+.higher-education .remove-on-landing-page{display:none;}
+.international-searchresults .homepage-search-btn{color:#222222;background:initial;margin:auto!important;}
+.international-searchresults .form-group{display: grid;grid-template-columns: 20% 20%;background-color:#f3f3f3;padding:20px;}
+.international-searchresults select{margin:0!important;}
+.international-searchresults .wpv-filter-form .search-box{display:none;}
+.international-searchresults .wpv-filter-form .homepage-search-btn{display:none;}
+.international-searchresults .course-filter-output h3 a{font-size:2rem!important;color:#0A4E7A!important;}
+.international-searchresults .view-course-btn a{font-size: 1.3rem !important;padding: 10px 15px 10px 15px;background: #7DBB4B;}
+.international-searchresults .view-course-btn .after-text-arrow::after {font-family: FontAwesome;content: " \f061";font-size: 1em;vertical-align: bottom;margin-left: 5px;color: #FFFFFF;}
+.international-searchresults #footer-wrap{position: absolute;left: 0;right: 0;}
+/* --- INHERIT NEW RESULTS BLOCK STYLE */
+.international-searchresults .col-sm-12 .wpb_content_element{margin-bottom:0;}
+.international-searchresults .col-sm-12 .wpb_content_element{margin-bottom:0;}
+.international-searchresults .col-sm-12{-webkit-box-shadow: 0px 0px 13px 1px rgba(235, 235, 235, 1);-moz-box-shadow: 0px 0px 13px 1px rgba(235, 235, 235, 1);box-shadow: 0px 0px 13px 1px rgba(235, 235, 235, 1);margin-bottom: 3rem;border: solid 2px;border-color: rgba(0, 0, 0, 0.07);}
+.international-searchresults .vc_column-inner .wpb_wrapper:first-child{padding:2rem;}
+.international-searchresults .vc_row{border:none;}
+.international-searchresults .vc_column-inner .wpb_wrapper .wpb_content_element{margin-bottom:0;}
+.international-searchresults .view-course-btn .after-text-arrow::after {font-family: FontAwesome;content: " \f061";font-size: 1em;vertical-align: bottom;margin-left: 5px;color: #FFFFFF;transition: all 0.3s ease;}
+.international-searchresults .view-course-btn:hover .after-text-arrow::after {margin-left: 15px;transition: all 0.3s ease;}
+.international-searchresults h3 a{color: #04558B}
