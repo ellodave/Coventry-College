@@ -14,7 +14,6 @@
 5. Offered Place Awaiting Confirmation: https://codepen.io/ellorich/full/jOroyYJ
 ---
 6. Conditional Accepted: https://codepen.io/ellorich/full/dypyGeN
-7. Conditional Declined: https://codepen.io/ellorich/full/poEogYm
 
 ---
 **Button links must be amended in both main source and client specific comment locations**
