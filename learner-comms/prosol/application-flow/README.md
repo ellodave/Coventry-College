@@ -16,9 +16,7 @@
 6. Conditional Accepted: https://codepen.io/ellorich/full/dypyGeN
 7. Conditional Declined: https://codepen.io/ellorich/full/poEogYm
 
-**Merge tag examples filled by ProSol shown as "[TEXT]"**
-**Button links must be amended in both main source and client specific comment locations**
-
 ---
+**Button links must be amended in both main source and client specific comment locations**
 - Emails tested using Litmus
 - Media assets served from /learner-comms/assets
