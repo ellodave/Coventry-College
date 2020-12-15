@@ -45,9 +45,10 @@ Template for Professional course (PROSOL)
 -------------
 
 Template for Distance Learning course
-
 <h2 class="ready-to-apply">Ready to apply?</h2>
-<a class="link-to-apply" href="{!{types field='link-to-apply' output='raw'}!}{!{/types}!}">Apply now</a>
+[sf_modal header="Register Interest" btn_colour="black" btn_type="standard" btn_size="standard" btn_icon="fa-arrow-right" btn_text="Register Interest"]
+[gravityform id=68 title=false description=false ajax=true field_values="dl-course={!{wpv-post-title}!}"]
+[/sf_modal]
 
 -------------
 
