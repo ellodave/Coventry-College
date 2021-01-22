@@ -1,0 +1,248 @@
+:root {
+  --moving-blue: #437cff;
+  --cov-yellow: #ffeb00;
+  --cov-black: #1c1c1c;
+}
+
+/*PAGE BUILDER RESETS*/
+.wpb_content_element{margin-bottom: 0!important;}
+
+.cov21-logo-hero img{
+  width: clamp(200px,400px,500px);
+  height: auto;
+  margin-bottom: 2em;
+}
+.cov21-marquee-section{
+  min-height: 120px;
+  margin-top: -40px;
+}
+
+.cov21-landing .cov-2021__global-tab{display: none!important;}
+
+.cov21-hero-section{
+display: -webkit-box;
+display: -webkit-flex;
+display: -ms-flexbox;
+display: flex;
+height: 400px;
+padding-top:0!important;
+-webkit-box-align: center;
+-webkit-align-items: center;
+-ms-flex-align: center;
+align-items: center;
+}
+.cov21-hero-section h3{
+  line-height: 30px;
+  font-size: 1.3em;
+}
+@media (max-width: 767px){
+ .cov21-hero-section{
+ 	height: auto;
+min-height: auto;
+padding-top: 68px;
+padding-bottom: 0;
+ }
+}
+.cov21-hero-section p a{
+  color: white;
+    text-decoration: underline;
+}
+.cov21-hero-section__container{
+display: -webkit-box;
+display: -webkit-flex;
+display: -ms-flexbox;
+display: flex;
+width: 100%;
+max-width: 900px;
+margin-right: auto;
+margin-left: auto;
+-webkit-box-orient: vertical;
+-webkit-box-direction: normal;
+-webkit-flex-direction: column;
+-ms-flex-direction: column;
+flex-direction: column;
+text-align: center;
+-webkit-box-align: center;
+-ms-flex-align: center;
+align-items: center;
+}
+
+@media (max-width: 767px){
+.cov21-hero-section__container{
+max-width: 580px;
+padding-right: 0;
+padding-left: 0;
+}
+}
+@media (max-width: 991px){
+.cov21-hero-section__container{
+max-width: 768px;
+padding-right: 0;
+padding-left: 0;
+margin-bottom: 5vh;
+}	
+}
+.cov21-hero-section__container p{
+	font-size: 18px;
+    line-height: 25px;
+    max-width: 800px;
+    margin-top: 2em;
+    color: white;
+}
+.inner-page-wrap strong{
+  color:white!important;
+}
+#main-container{background-color:var(--moving-blue)!important;}
+
+.inner-page-wrap h1,.inner-page-wrap h2,.inner-page-wrap h3,.inner-page-wrap h4, .inner-page-wrap h5,.inner-page-wrap h6{
+	color: white!important;
+}
+
+h1{
+font-size:clamp(50px, 7vw, 90px)!important;
+line-height: 70px!important;
+}
+h2{
+font-size:clamp(25px, 5vw, 30px)!important;
+line-height: 40px!important;
+}
+p{
+	font-size: 18px;
+    line-height: 30px;
+    color: white;
+}
+.cov-21__btn{
+    background-color:white;
+    padding: 10px 1.5em;
+    color: black;
+    text-transform: uppercase;
+    font-weight: 600;
+    display: -webkit-box;
+display: -webkit-flex;
+display: -ms-flexbox;
+display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+    max-width: 250px;
+    text-align: center;
+    font-size: 17px;
+}
+.cov-21__btn:hover{
+  background-color:#e0e0e0;
+  color: black;
+}
+.cov21-signup-col{
+      background-image: url(/wp-content/uploads/2020/11/coventry-cathedral-night.jpg);
+    background-position: bottom;
+    background-repeat-x: repeat;
+    background-repeat-y: no-repeat;
+    background-size: cover;
+    background-color: var(--moving-blue);
+    min-height: 600px;
+}
+.cov21-signup-col .wpb_text_column{
+  background: var(--cov-black);
+    padding: 2em;
+}
+@media (max-width: 360px){
+  .cov21-signup-col .wpb_text_column{
+    background: #000000c2;
+  }
+  }
+.cov-21__signup-cta-btns{
+  display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    gap: 1em;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+}
+.cov-21__btn.cov-21__btn--alt{
+      background-color: var(--moving-blue);
+    color: white;
+}
+
+.cov21-countdown-section h2{
+  margin-top: 0;
+}
+.countdown-container{
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 100%;
+  margin-top:-5px;
+}
+#countdown{
+	 color: white;
+    font-size: 2.5em;
+    line-height: 50px;
+    text-align: center;
+    margin-bottom: 40px;
+    font-weight: 600;
+ }
+ .countdown-container p{
+max-width: 740px;
+margin:auto;
+margin-bottom: 10px!important;
+ }
+
+/*LOTTLE ELEMENTS*/
+.cov21-asset{
+	margin:0;
+}
+@media (min-width: 1200px){
+	    #cov21-asset1{left: calc(-30vw + 15%);
+      line-height: 0;
+      }
+}
+
+@media (min-width: 1400px){
+#cov21-asset1 svg{
+	max-height: 500px;
+  line-height: 0;
+}
+}
+@media (max-width: 1400px){
+#cov21-asset1 svg{
+	max-height: 400px;
+}
+}
+.cov21-marquee{
+  position: absolute;
+}
+.marquee {
+    width:9000px;
+    overflow: hidden;
+    color: white;
+    -webkit-text-fill-color: transparent;
+    -moz-text-stroke-width: 1px;
+    -webkit-text-stroke-width: 1px;
+    -moz-text-stroke-color: #e3736f;
+    -webkit-text-stroke-color: white;
+    font-size: clamp(15px,8vw,5em);
+    text-transform: uppercase;
+    position: inherit;
+}
+
+.marquee div {
+     display: block;
+    width: 220%;
+    height: auto;
+    position: absolute;
+    overflow: visible;
+    animation: marquee 80s linear infinite;
+}
+
+.marquee span {
+float: left;
+ width: 2500px;
+}
+
+@keyframes marquee {
+  0% { left: 0; }
+  100% { left: -100%; }
+}
