@@ -1,3 +1,9 @@
+.course-card{
+     display: -webkit-box;
+     -webkit-line-clamp: 3;
+     -webkit-box-orient: vertical;
+     overflow: hidden;
+}
 .course-card__apply-btn{
      background-color: #fff;
     border: 1px solid var(--blue-btn-hover);
