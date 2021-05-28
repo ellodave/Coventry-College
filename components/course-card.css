@@ -23,12 +23,9 @@
     font-weight: 600;
     text-transform: capitalize;
 }
-.course-card__apply-btn span{
-    margin-right:0.8rem;
-}
 .course-card__apply-btn svg{
     vertical-align: middle;
-    margin-left: 0.5rem;
+    margin-left: 1rem;
 }
 .course-card__apply-btn.btn-white{
     background-color: white;
