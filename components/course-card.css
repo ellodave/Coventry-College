@@ -23,6 +23,13 @@
     font-weight: 600;
     text-transform: capitalize;
 }
+.course-card__apply-btn span{
+    margin-right:0.8rem;
+}
+.course-card__apply-btn svg{
+    vertical-align: middle;
+    margin-left: 0.5rem;
+}
 .course-card__apply-btn.btn-white{
     background-color: white;
     border: 1px solid var(--blue-btn-hover);
