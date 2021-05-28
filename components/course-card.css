@@ -1,31 +1,23 @@
 .course-card__apply-btn{
-    -webkit-align-items: center;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    background-color: white;
+     background-color: #fff;
     border: 1px solid var(--blue-btn-hover);
     color: #222;
     cursor: pointer;
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
     font-size: 1em;
-    -webkit-box-pack: center;
-    -webkit-justify-content: center;
-    -ms-flex-pack: center;
-    justify-content: center;
     padding: 1rem 2rem;
-    -webkit-transition: all 0.3s ease;
-    transition: all 0.3s ease;
+    -webkit-transition: all .3s ease;
+    transition: all .3s ease;
     width: 100%;
     font-weight: 600;
     text-transform: capitalize;
+    text-align: center;
+}
+.course-card__apply-btn span{
+    margin-right:0.8rem;
 }
 .course-card__apply-btn svg{
     vertical-align: middle;
-    margin-left: 1rem;
+    margin-left: 0.5rem;
 }
 .course-card__apply-btn.btn-white{
     background-color: white;
@@ -48,6 +40,6 @@
     border: 1px solid var(--blue-btn-hover);
     color: white;
 }
-.course-card__apply-btn.btn-white svg{
+.course-card__apply-btn.btn-blue svg{
     fill:white!important;
 }
