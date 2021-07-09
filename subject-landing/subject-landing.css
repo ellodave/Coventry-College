@@ -1,6 +1,12 @@
 /*SUBJECT LANDING PAGES*/
 .subject-landing-filter-dropdown__dropbtn{display:none;}
 .subject-landing_hero__open-event-bar{display:none;}
+.subject-hero__hero-promo{
+	background-color:var(--color-primary-pink);
+}
+.subject-hero__hero-promo aside a{
+	padding: 1.5rem 0!important;
+}
 @media (min-width: 1025px) {
 	.subject-landing_hero{min-height:450px;}
 	.subject-landing__callout-box p{padding:1.5em;}
