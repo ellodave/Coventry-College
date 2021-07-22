@@ -1,0 +1,9 @@
+<div class="swiper-slide">
+<div class="video-container">
+<a href="/further-education/new"><video autoplay="" loop="" muted="" playsinline="" poster="/wp-content/uploads/2021/03/fe-programmes-21-22-promo_cover.jpg">
+              <source src="/wp-content/uploads/2021/03/fe-programmes-21-22-promo.mp4" type="video/mp4">
+              Your browser does not support the video tag. Please upgrade your browser.
+            </video></a>
+</div>
+<span class="visually-hidden">NEW full-time courses for school leavers</span>
+</div>
