@@ -58,6 +58,9 @@ Template for Distance Learning course
 -------------
 
 Template for Part-time course
+Template for Part-Time course (Pre-Entry)
 
 <h2 class="ready-to-apply">Ready to apply?</h2>
 <a class="link-to-apply" href="{!{types field='link-to-apply' output='raw'}!}{!{/types}!}">Apply now</a>
+
+-------------
