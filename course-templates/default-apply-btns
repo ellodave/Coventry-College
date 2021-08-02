@@ -13,7 +13,10 @@ Template for Access to HE
 
 Apprenticeships:
 
-EMAIL MODAL
+<h2 class="ready-to-apply">Become an Apprentice</h2>
+[sf_modal header="Apply for an Apprenticeship" btn_colour="black" btn_type="standard" btn_size="standard" btn_icon="fa-arrow-right" btn_text="Register Interest"]
+[gravityform id=5 title=false description=false ajax=true]
+[/sf_modal]
 
 --------
 
@@ -38,7 +41,8 @@ Template for HE Course - Prosol + UCAS
 
 Template for Professional course (EMAIL)
 
-EMAIL
+<h2 class="ready-to-apply">Ready to apply?</h2>
+<a href="mailto:{!{types field='email-to-apply' output='raw'}!}{!{/types}!}">Apply via email</a>
 
 ------------
 
