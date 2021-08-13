@@ -29,6 +29,12 @@ Template for HE Course
 <a class="link-to-apply" href="{!{types field='link-to-apply' output='raw'}!}{!{/types}!}">Apply now</a>
 
 ---------
+*** //// 
+
+HE Courses with external apply links must be switched to seperate template: (External Apply Link LMP Override)
+Tash this template when not in use.
+
+//// ***
 
 Template for HE Course - Prosol + UCAS
 
