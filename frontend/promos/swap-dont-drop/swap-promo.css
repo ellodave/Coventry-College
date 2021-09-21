@@ -1,0 +1,16 @@
+/*SWAP*/
+.swap-promo{
+    background: var(--color-primary-turquoise);
+    background: linear-gradient(-75deg, var(--color-primary-orange) 40%, var(--color-primary-pink) 0%), #fcfcfd;
+    background-size: 100%;
+    max-width:1140px;
+    margin:auto;
+}
+.swap-promo__swap-btn{
+        text-transform: uppercase;
+    font-weight: 700;
+    color: var(--color-primary-pink)!important;
+}
+.swap-promo__swap-btn a.vc_general.vc_btn3.vc_btn3-size-md.vc_btn3-shape-square.vc_btn3-style-flat.vc_btn3-color-white{
+    color:var(--color-primary-pink);
+}
