@@ -6,6 +6,8 @@
 ### Preview Links:
 **These previews have not been inlined and must not be used in production.**
 
+- Initial Confirmation: https://codepen.io/ellorich/full/mdwZBWE
+
 - Application Request Accepted: https://codepen.io/ellorich/full/eYzagEO
 - Application Request Rejected: https://codepen.io/ellorich/full/NWRxBao
 - Application Offer: https://codepen.io/ellorich/full/jOroyYJ
