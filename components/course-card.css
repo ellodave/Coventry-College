@@ -58,3 +58,14 @@
 .course-card__apply-btn.btn-blue svg{
     fill:white!important;
 }
+.course-card__apply-btn.btn-pink{
+    background-color: var(--color-primary-pink);
+    border: 1px solid #D5315C;
+    color: white;
+}
+.course-card__apply-btn.btn-pink:hover{
+    background-color: #D5315C;
+}
+.course-card__apply-btn.btn-pink svg{
+    fill:white!important;
+}
