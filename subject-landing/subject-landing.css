@@ -44,7 +44,16 @@
 .subject-landing_hero__open-event-bar__inner p{display: flex;justify-content: space-between;flex-wrap: wrap;align-items: center;}
 .subject-landing_hero__open-event-bar__register-btn{background-color: var(--color-primary-blue);padding: 1rem 4rem;color: white;margin:0 0 0 2rem;}
 .subject-landing_hero__open-event-bar__register-btn:hover{background-color:#07466f;color:white;}
-.subject-type-filters .wpv-reset-trigger{background-color:#848383;border:none;}
+.subject-type-filters .wpv-reset-trigger{
+    background-color: var(--color-primary-blue);
+    border: none;
+    border-radius: 0;
+    color: white;
+    padding: 1rem 2rem;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
 .subject-type-filters .pagination{display:inline-block;}
 .subject-landing-filter-tile{margin-bottom:4rem;}
 .subject-landing_course-filter ul{list-style:none!important;/*max-width:950px;*/}
