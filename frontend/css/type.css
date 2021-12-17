@@ -1,0 +1,23 @@
+root:{
+	--color-primary-blue: #0c4e7a;
+	--color-primary-light-blue: #1ea0de;
+	--color-primary-turquoise: #21acc8;
+	--color-primary-green: #7bc244;
+	--color-primary-light-green: #c1d831;
+	--color-primary-dark-green: #aaac02;
+	--color-primary-pink: #e93f6b;
+	--color-primary-orange: #ef7e05;
+	--blue-btn-hover: #0a3d5f;
+	--size-300: clamp(.7rem, 0.66rem + 0.2vw, .8rem);
+  --size-400: clamp(.88rem, 0.83rem + 0.24vw, 1rem);
+  --size-500: clamp(1.09rem, 1rem + 0.47vw, 1.33rem);
+  --size-600: clamp(1.37rem, 1.21rem + 0.8vw, 1.78rem);
+  --size-700: clamp(1.85rem, 1.50rem + 1.32vw, 2.45rem);
+  --size-800: clamp(2.14rem, 1.74rem + 1.99vw, 3.16rem);
+  --size-900: clamp(2.67rem, 2.07rem + 3vw, 4.21rem);
+}
+
+.h1{font-size:var(--size-900);line-height:1.5;font-family: inherit;font-weight: 600;}
+.h2{font-size:var(--size-800);line-height:1.4;font-family: inherit;font-weight: 600;}
+.h3{font-size:var(--size-700);line-height:1.5;font-family: inherit;font-weight: 600;}
+.h4{font-size:var(--size-600);line-height:1.6;font-family: inherit;font-weight: 600;}
