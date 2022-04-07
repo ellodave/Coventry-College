@@ -1,0 +1,10 @@
+/* COV 2021 */
+.cov-2021__global-tab{display:-ms-grid;display:grid;}
+.cov-2021__global-tab{margin-top: 150px;position: fixed;right: 0;z-index: 9999;}
+.cov-2021__global-tab img{width: auto;height: 280px;float: right;max-height: 280px;}
+/* REMOVE TAB ON SM SCREENS*/
+/* Overwrites queries below*/
+@media screen and (max-width: 450px){.cov-2021__global-tab{display:none!important;}}
+/* REMOVE TAB ON SM SCREENS*/
+@media (min-width:500px){.cov-2021__global-tab__close-btn{display:none;}}
+@media (max-width:500px){.cov-2021__global-tab__close-btn{display:block;font-size:2.5em;}}
