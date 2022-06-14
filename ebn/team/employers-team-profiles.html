@@ -1,0 +1,37 @@
+[wpv-layout-start]
+	[wpv-items-found]
+<div class="team-member__wrapper display-grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-3 text-center">
+	<!-- wpv-loop-start -->
+	<wpv-loop>
+      <div class="team-member">
+		<a class="avatar team-member__avatar" data-toggle="modal" data-target=".team-member-modal__[wpv-post-id]">[types field="ebn-employers-staff-profile-image"][/types]</a>
+        <h4 class="team-member__name color--blue">[types field="ebn-employers-staff-name"][/types]</h4>
+        <h6 class="team-member__role">[types field="ebn-employers-staff-role"][/types]</h6>       
+      </div>
+      
+    <!-- Modal -->
+<div class="modal fade team-member-modal__[wpv-post-id]" id="ebn-staff-member" tabindex="-1" role="dialog" aria-labelledby="Employers Team Profile Popup">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+      <div class="modal-header flex align-items--center">
+        <div class="avatar team-member__avatar">[types field="ebn-employers-staff-profile-image"][/types]</div>
+        <h4 style="margin-left:1em;" class="modal-title color--blue">[types field="ebn-employers-staff-name"][/types]</h4>
+      </div>
+      <div class="modal-body">
+        [types field='ebn-employers-staff-bio'][/types]
+        [types field="ebn-employers-staff-questions"][/types]
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Modal -->           
+      
+	</wpv-loop>
+	<!-- wpv-loop-end -->
+</div>
+	[/wpv-items-found]
+	[wpv-no-items-found]
+		<strong>[wpml-string context="wpv-views"]No items found[/wpml-string]</strong>
+	[/wpv-no-items-found]
+[wpv-layout-end]
