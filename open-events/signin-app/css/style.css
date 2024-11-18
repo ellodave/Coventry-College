@@ -1,0 +1,115 @@
+:root {
+    --radio-border-color: var(--primary);
+    --radio-checked-color: var(--tertiary);
+    --radio-hover-color: var(--base-ultra-light);
+    --radio-disabled-bg-color: var(--base-ultra-light);
+}
+
+input[type="radio"] {
+    box-sizing: border-box;
+    width: calc(var(--space-l) / 1.2) !important;
+    height: calc(var(--space-l) / 1.2) !important;
+    padding: 0 !important;
+    border: 2px solid var(--radio-border-color);
+    border-radius: var(--radius-circle) !important;
+    appearance: none;
+    background-color: transparent;
+    outline: none;
+}
+
+input[type="radio"]:not(:disabled):checked {
+    border-color: var(--accent-ultra-dark-trans-30);
+    border-width: .2em;
+    padding: 2px;
+    background-color: var(--radio-checked-color) !important;
+}
+
+input[type="radio"]:disabled {
+    background-color: var(--radio-disabled-bg-color);
+}
+
+
+@media (hover: hover) {
+    input[type="radio"]:not(:disabled):hover {
+        background-color: var(--radio-hover-color);
+        outline: 3px solid var(--radio-hover-color);
+    }
+}
+
+input[type="radio"]:focus-visible {
+    background-color: var(--radio-hover-color);
+    outline: 6px solid var(--radio-hover-color);
+}
+
+#search-email-button {
+    margin-top: var(--space-m);
+}
+
+#open-event-attendance-form fieldset {
+    display: grid;
+    gap: calc(var(--content-gap) / 2.5);
+    border: none;
+    margin-block: var(--space-s);
+}
+
+#open-event-attendance-form label {
+    display: flex !important;
+    align-items: center;
+    gap: calc(var(--content-gap) / 3);
+}
+
+.error {
+    background-color: var(--warning);
+    padding: var(--space-xs);
+    border-radius: var(--radius);
+    border-left: solid .3em var(--base-dark-trans-90);
+    margin-block: var(--content-gap);
+}
+
+.success {
+    background-color: var(--success);
+    padding: var(--space-xs);
+    border-radius: var(--radius);
+    border-left: solid .3em var(--accent-dark-trans-20);
+    margin-block: var(--content-gap);
+    color: white;
+}
+
+/* Pre-Registered Yes */
+#pre_registered_yes,
+#pre_registered_no {
+    width: 100%;
+}
+
+#surname-search {
+    margin-block: var(--grid-gap);
+    background-color: var(--base-ultra-light);
+    padding: var(--section-space-xs);
+    border: var(--border);
+    border-radius: var(--radius);
+    display: grid;
+    gap: var(--content-gap);
+}
+
+ul.matching-registration-list {
+    display: grid !important;
+    gap: calc(var(--grid-gap) / 2);
+    list-style: none;
+    margin-inline: 0;
+    margin-block: var(--space-m);
+    padding-inline: 0;
+}
+
+.matching-registration-list li {
+    display: flex !important;
+    flex-direction: row;
+    gap: calc(var(--grid-gap) / 2);
+}
+
+#pre_registered_no :is(input[type="text"], input[type="email"]) {
+    margin-bottom: var(--space-s);
+}
+
+#pre_registered_no button[name="register_walkin"] {
+    margin-top: var(--space-m);
+}
